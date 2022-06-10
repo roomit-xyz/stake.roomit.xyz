@@ -1,0 +1,10 @@
+---
+layout: default
+img: gnosis.png
+category: Services
+title: Gnosischain Validator<br>
+description: |
+---
+Gnosis Chain (Execution layer with EVM) is a fully Ethereum-compatible companion chain with low fees, a native stablecoin, and thriving ecosystem of dApps. Gnosis Chain: Execution Layer GNO Token Validators use the GNO token to provide Proof-of-Stake consensus protection for GBC.
+
+We have experienced for running nodes gnosis with good uptime!
