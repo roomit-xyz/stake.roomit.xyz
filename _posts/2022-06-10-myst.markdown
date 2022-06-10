@@ -2,7 +2,13 @@
 layout: default
 img: mysterium.png
 category: Services
-title: Death to the Stock Photo:<br>Special Thanks
+title: Mysterium Validator
 description: |
 ---
-  A special thanks to [Death to the Stock Photo](http://join.deathtothestockphoto.com/) for providing the photographs that you see in this template.  Visit their website to become a member!
+Mysterium is Decentralized VPN based on OpenVPN and Wireguard. We provided infrastructure for MYST in singapore. Download in [Mysterium Client](https://www.mysteriumvpn.com/download)
+
+<b>Find Our Node in Region Asia</b>
+```
+ID = 0xc5c932171119897eeab674fa82f191079bc695e0
+```
+

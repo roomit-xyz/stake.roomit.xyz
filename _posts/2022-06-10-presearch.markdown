@@ -2,7 +2,11 @@
 layout: default
 img: presearch.png
 category: Services
-title: Death to the Stock Photo:<br>Special Thanks
+title: Presearch Validator
 description: |
 ---
-  A special thanks to [Death to the Stock Photo](http://join.deathtothestockphoto.com/) for providing the photographs that you see in this template.  Visit their website to become a member!
+<b>Presearch is a Decentralized Search Engine  </b>
+Search privately, receive better results and get rewarded with the Presearch decentralized search engine, powered by blockchain technology.
+
+We have upime 99% and get 200 request per day per node in region asia.
+
