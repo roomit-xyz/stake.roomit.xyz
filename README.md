@@ -1,1 +1,1 @@
-# stake.roomit..xyz
+# stake.roomit.xyz
