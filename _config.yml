@@ -24,11 +24,11 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: mailchimp
+  - title: mail-reply
     mail: admin@roomit.xyz
   - title: telegram
     url: https://t.me/roomit_xyz
-  - title: git
+  - title: github
     url: https://github.com/luneareth
   - title: link
     url: https://stake.roomit.xyz
