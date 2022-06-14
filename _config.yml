@@ -26,7 +26,7 @@ permalink: pretty
 social:
   - title: mail-reply
     mail: admin@roomit.xyz
-  - title: telegram
+  - title: fa-telegram
     url: https://t.me/roomit_xyz
   - title: github
     url: https://github.com/luneareth
