@@ -9,7 +9,7 @@ Gnosis Chain (Execution layer with EVM) is a fully Ethereum-compatible companion
 
 We have experienced for running nodes gnosis with good uptime!
 
-<b> 1. Node Luneareth </b> 
+
 <p align="center">Our Nodes</p>
 
 <pre>
