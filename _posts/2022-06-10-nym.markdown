@@ -17,7 +17,7 @@ ID Identity :
 AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo
 
 Explorer : 
-<a href="https://mixnet.explorers.guru/mixnode/AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo" target="_blank">https://mixnet.explorers.guru/mixnode/AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo</a>
+[https://mixnet.explorers.guru/mixnode/AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo](https://mixnet.explorers.guru/mixnode/AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo)
 ```
 
 <b> 2. Node Panthalassa </b> <br>
@@ -26,5 +26,5 @@ ID Identity :
 HHc7sXJeMTM2vorL7bC9mgTjLwisdPcLZET9iUCUtKEU
 
 Explorer : 
-<a href="https://mixnet.explorers.guru/mixnode/HHc7sXJeMTM2vorL7bC9mgTjLwisdPcLZET9iUCUtKEU" target="_blank">https://mixnet.explorers.guru/mixnode/HHc7sXJeMTM2vorL7bC9mgTjLwisdPcLZET9iUCUtKEU</a>
+[https://mixnet.explorers.guru/mixnode/HHc7sXJeMTM2vorL7bC9mgTjLwisdPcLZET9iUCUtKEU](https://mixnet.explorers.guru/mixnode/HHc7sXJeMTM2vorL7bC9mgTjLwisdPcLZET9iUCUtKEU)
 ```
