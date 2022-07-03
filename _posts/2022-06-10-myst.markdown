@@ -22,7 +22,6 @@ Mysterium is Decentralized VPN based on OpenVPN and Wireguard. We provided infra
 
 
 <p align="center"><b>Price</b></p>
-<br>
 Based on Quota : <br>
 <code align="center">
 ⁃ 1 GB = $0.13 <br>
