@@ -5,17 +5,17 @@ category: Services
 title: Mysterium Validator
 description: |
 ---
-Mysterium is Decentralized VPN based on OpenVPN and Wireguard. We provided infrastructure for MYST in singapore. Download in [Mysterium Client](https://www.mysteriumvpn.com/download)
+Mysterium is Decentralized VPN based on OpenVPN and Wireguard. We provided infrastructure for MYST in any country. Download in [Mysterium Client](https://www.mysteriumvpn.com/download)
 
-<b>Find Our Node in Region Asia</b>
+<b>Find Our Node</b>
 <p align="center"><b>Our ID</b></p>
-1. VPN Singapore 01 
+1. VPN United States (San Franscisco) 
 <code align="center">
 0xc5c932171119897eeab674fa82f191079bc695e0
 </code>
 <br>
 <br>
-2. VPN Singapore 02
+2. VPN Netherlands
 <code align="center">
 0x4f08743dcaf947a49ccbac8d0b141d6ab5851053
 </code>
