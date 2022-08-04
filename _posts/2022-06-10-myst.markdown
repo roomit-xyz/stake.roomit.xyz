@@ -9,13 +9,13 @@ Mysterium is Decentralized VPN based on OpenVPN and Wireguard. We provided infra
 
 <b>Find Our Node</b>
 <p align="center"><b>Our ID</b></p>
-1. VPN United States (San Franscisco) 
+1. VPN Germany
 <code align="center">
 0xc5c932171119897eeab674fa82f191079bc695e0
 </code>
 <br>
 <br>
-2. VPN Netherlands
+2. VPN Finland
 <code align="center">
 0x4f08743dcaf947a49ccbac8d0b141d6ab5851053
 </code>
