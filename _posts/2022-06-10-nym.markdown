@@ -11,7 +11,7 @@ Nym is a privacy platform. It provides strong network-level privacy against soph
 
 Found Our Node Mixnode
 
-<b> 1. AlFalah </b> 
+<b> RoomIT Mixnode </b> 
 <br>
    <p align="center">ID Identity </p>
 
@@ -25,16 +25,4 @@ AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo
 </code>
 </pre>
 
-<b> 2. Panthalassa </b> 
-<br>
-  <p align="center">ID Identity</p>
-<code>
-HHc7sXJeMTM2vorL7bC9mgTjLwisdPcLZET9iUCUtKEU
-</code>
 
-<p align="center">Explorer</p>
-<pre>
-<code>
-<a href="https://mixnet.explorers.guru/mixnode/HHc7sXJeMTM2vorL7bC9mgTjLwisdPcLZET9iUCUtKEU" target="_blank">https://mixnet.explorers.guru/mixnode/HHc7sXJeMTM2vorL7bC9mgTjLwisdPcLZET9iUCUtKEU</a>
-</code>
-</pre>
