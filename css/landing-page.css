@@ -48,6 +48,11 @@ h6 {
     font-size: 5em;
 }
 
+.img-responsive {
+    max-width: 80%; /* or to whatever you want here */
+    max-height: auto; /* or to whatever you want here */
+  }
+
 .intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
@@ -121,7 +126,7 @@ h6 {
 
 .banner h2 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.1);
     font-size: 3em;
 }
 
@@ -144,7 +149,7 @@ h6 {
 @media(max-width:767px) {
     .banner h2 {
         margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.1);
         font-size: 3em;
     }
 
