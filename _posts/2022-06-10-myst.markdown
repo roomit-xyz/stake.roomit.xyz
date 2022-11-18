@@ -5,9 +5,11 @@ category: Services
 title: Mysterium Validator
 description: |
 ---
+
 Mysterium is Decentralized VPN based on OpenVPN and Wireguard. We provided infrastructure for MYST in any country. Download in [Mysterium Client](https://www.mysteriumvpn.com/download)
 
 <b>Find Our Node</b>
+
 <p align="center"><b>Our ID</b></p>
 VPN Germany
 <code align="center">
@@ -19,7 +21,6 @@ VPN Germany
 </code>
 <br>
 <br>
-
 
 <p align="center"><b>Price</b></p>
 1. Based on Quota : 
@@ -35,5 +36,3 @@ VPN Germany
 <code align="center">
 1 hours = $0.47 
 </code>
-
-
