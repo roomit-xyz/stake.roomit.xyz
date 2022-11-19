@@ -70,6 +70,14 @@ h6 {
   text-decoration: none;
 }
 
+.icons-social a {
+	color: #FAFAFA;
+}
+
+.icons-social a svg path{
+	fill: #FAFAFA;
+}
+
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
