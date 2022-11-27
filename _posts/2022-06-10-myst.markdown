@@ -23,7 +23,7 @@ VPN Germany
 <br>
 
 <p align="center"><b>Price</b></p>
-1. Based on Quota : 
+Based on Quota : 
 <br>
 <code align="center">
 1 GB = $0.13 <br>
@@ -31,7 +31,7 @@ VPN Germany
 </code>
 <br>
 <br>
-2. Based on Time 
+Based on Time 
 <br>
 <code align="center">
 1 hours = $0.47 
