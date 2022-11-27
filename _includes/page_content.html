@@ -1,4 +1,9 @@
+
+  
 <section id="services">
+    <div class="d-flex justify-content-center">
+        <h2>Mainnet Network</h2><br>
+      </div>
 <!-- Page Content -->
 {% for post in site.posts reversed %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
@@ -13,8 +18,8 @@
                     <h2 class="section-heading">{{ post.title }}</h2>
                     <div class="lead">{{ post.content }}</div>
                 </div>
-                <div class="col-lg-6 col-sm-6">
-                    <img class="img-responsive"  src="img/services/{{ post.img }}" alt="" width=80%>
+                <div class="col-lg-6 col-sm-6  mt-3  justify-content-center">
+                    <img class="img-responsive"  src="img/services/{{ post.img }}">
                 </div>
 
             </div>
@@ -36,8 +41,8 @@
                     <h2 class="section-heading">{{ post.title }}</h2>
                     <div class="lead">{{ post.content }}</div>
                 </div>
-                <div class="col-lg-6 offset-lg-1 col-sm-6">
-                    <img class="img-responsive" src="img/services/{{ post.img }}" alt="" width=80%>
+                <div class="col-lg-6 offset-lg-1 col-sm-6  mt-3 justify-content-center">
+                    <img class="img-responsive" src="img/services/{{ post.img }}">
                 </div>
             </div>
         </div>

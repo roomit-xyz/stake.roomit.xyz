@@ -3,10 +3,9 @@
 </div>
 
 <section id="testnet" class="container d-flex justify-content-center">
- 
-  <div class="container">
+  <!-- Album 1 -->
   <div class="row">
-    <div class="col-sm-4  text-right">
+    <div class="col-sm-4  text-right mt-3 d-flex justify-content-center">
             <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="img/testnet/aptos.png" alt="Card image cap">
             <div class="card-body">
@@ -16,7 +15,7 @@
             </div>  
             </div>
     </div>
-    <div class="col-sm-4 text-right">
+    <div class="col-sm-4 text-right mt-3 d-flex justify-content-center">
             <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="img/testnet/alephzero.png" alt="Card image cap">
             <div class="card-body">
@@ -26,7 +25,7 @@
             </div>  
             </div>
     </div>
-    <div class="col-sm-4  text-right">
+    <div class="col-sm-4  text-right mt-3 d-flex justify-content-center">
             <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="img/testnet/gitopia.png" alt="Card image cap">
             <div class="card-body">
@@ -36,12 +35,24 @@
             </div>  
             </div>
     </div>
+    <div class="col-sm-4  text-right mt-3 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/testnet/chainflip.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">ChainFlip Network</h5>
+                    <p class="card-text"></p>
+                    <button
+                        type="button"
+                        class="btn btn-success"
+                        data-toggle="modal"
+                        data-target="#testnet4">Info
+                    </button>
+                </div>
+        </div>
+    </div>
   </div>
-  </div>
-
-        
-        
-        
+</div>
+          
 
 
   
@@ -299,6 +310,10 @@
             <div class="col-2">API</div>
             <div class="col-6"><a href="https://api.gitopia.roomit.xyz">https://api.gitopia.roomit.xyz</a></div>
           </div>
+          <div class="row">
+            <div class="col-2">gRPC</div>
+            <div class="col-6"><a href="https://grpc.gitopia.roomit.xyz">https://grpc.gitopia.roomit.xyz</a></div>
+          </div>
         </div>
      <!-- limit  -->
           <div class="modal-footer">
@@ -311,13 +326,57 @@
    <div class="modal-dialog modal-xl" role="document">
      <div class="modal-content">
        <div class="modal-header">
-         <h5 class="modal-title" id="exampleModalLabel">MASSA LABS</h5>
+         <h5 class="modal-title" id="exampleModalLabel">ChainFLip</h5>
          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
            <span aria-hidden="true">&times;</span>
          </button>
        </div>
        <div class="modal-body">
-         ...
+        <!-- limit  -->
+        <h3>Informations</h3>
+        <div class="row">
+          <div class="col-2">Website</div>
+          <div class="col-6"><a href="https://chainflip.io/">ChainFlip</a></div>
+        </div>
+        <div class="row">
+          <div class="col-2">Event</div>
+          <div class="col-6">Perseverance Testnet</div>
+        </div>
+        <div class="row">
+          <div class="col-2">Link Event</div>
+          <div class="col-6"><a href="https://blocks-perseverance.chainflip.io/validator/cFJeTec6nZ81729HNebTp9Yb8DfUxfwmKmdvZvimGZnokLrvK">RoomIT Validator</a></div>
+        </div>
+        <div class="row">
+          <div class="col-2">Id Node</div>
+          <div class="col-6"><code>cFJeTec6nZ81729HNebTp9Yb8DfUxfwmKmdvZvimGZnokLrvK</code></div>
+        </div>
+        <div class="row">
+          <div class="col-2">Status</div>
+          <div class="col-6"><span class="badge badge-warning">ongoing</span></div>
+        </div>
+        <h3>Technology</h3>
+        <div class="row">
+          <div class="col-2">OS</div>
+          <div class="col-6">Ubuntu 22.04</div>
+        </div>
+        <div class="row">
+          <div class="col-2">Application</div>
+          <div class="col-6">Gitopia Based on Tendermint</div>
+        </div>
+        <div class="row">
+          <div class="col-2">Monitoring</div>
+          <div class="col-6">Grafana, Prometheus, Telegraf (<a href="/pdf/RoomIT_AlephZero-Grafana.pdf"> Monitoing AZERO</a> ) </div>
+        </div>
+        <div class="row">
+          <div class="col-2">Security</div>
+          <div class="col-6">Audit (Lynis and Greenbonde), Hardening CIS</div>
+        </div>
+        <div class="row">
+          <div class="col-2">Network</div>
+          <div class="col-6">Wireguard (Communication between Machine)</div>
+        </div>
+     
+   <!-- limit  -->
        </div>
        <div class="modal-footer">
          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
