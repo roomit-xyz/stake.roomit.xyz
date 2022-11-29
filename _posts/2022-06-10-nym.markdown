@@ -14,15 +14,10 @@ Found Our Node Mixnode
 <center>
 <b> RoomIT Mixnode </b> 
 <br>
-   <p align="center">ID Identity </p>
 
-<code>
-AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo
-</code>
-   <p align="center">Explorer</p>
-<pre>
-<code>
-<a href="https://mixnet.explorers.guru/mixnode/AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo" target="_blank">https://mixnet.explorers.guru/mixnode/AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo</a>
-</code>
-</pre>
+<a href="https://mixnet.explorers.guru/mixnode/AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo" class="btn btn-success" target="_blank">Explorer</a>
+<input type="text" id="clip_one" value="AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo" hidden=true>
+<button onclick="clip_one_func()"   id="demo-1" class="btn btn-warning">ID Validator</button>
+<a href="/pdf/RoomIT_NYM-Grafana.pdf" class="btn btn-success">Monitoring</a> 
+
 </center>

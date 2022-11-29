@@ -10,5 +10,46 @@
 <!-- Custom Theme JavaScript -->
 <script src="js/landing-page.js"></script>
 
+<script src="js/iao-alert.jquery.js"></script>
 
+
+<script>
+function clip_one_func() {
+    // Get the text field
+    var copyText = document.getElementById("clip_one");
+  
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+  
+     // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+  
+    // Alert the copied text
+    //alert("ID Node Copied: " + copyText.value);
+    $.iaoAlert({msg: "ID Node Copied",
+            type: "success",
+            mode: "light",})
+    
+  }
+
+  function clip_two_func() {
+    // Get the text field
+    var copyText = document.getElementById("clip_two");
+  
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+  
+     // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+  
+    // Alert the copied text
+    //alert("ID Node Copied: " + copyText.value);
+    $.iaoAlert({msg: "ID Node Copied",
+            type: "success",
+            mode: "light",})
+    
+  }
+</script>
 
