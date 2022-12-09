@@ -5,7 +5,10 @@ category: Services
 title: Mysterium Validator
 description: |
 ---
-
+<div class="col-8">
+<span class="badge badge-primary">openvpn </span>
+<span class="badge badge-primary">wireguard  </span>
+</div>
 Mysterium is Decentralized VPN based on OpenVPN and Wireguard. We provided infrastructure for MYST in any country. Download in [Mysterium Client](https://www.mysteriumvpn.com/download)
 
 <b>Find Our Node</b>

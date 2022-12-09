@@ -5,6 +5,10 @@ category: Services
 title: NYM Mixnode
 description: |
 ---
+<div class="col-8">
+<span class="badge badge-primary">Autocompound </span>
+<span class="badge badge-primary">Mixing Packet  </span>
+</div>
 Nym is decentralized privacy platform. It provides strong network-level privacy against sophisticated end-to-end attackers, and anonymous access control using blinded, re-randomizable, decentralized credentials. Different with VPN, dVPN, l2P, Facebook Connect and TOR. The Nym mixnet is an anonymous overlay network that provides strong network-level anonymity, even in the face of powerful systems capable of passively monitoring the entire network.
 
 
