@@ -19,6 +19,6 @@ Found Our Node Mixnode
 <input type="text" id="clip_one" value="AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo" hidden=true>
 <button onclick="clip_one_func()"   id="demo-1" class="btn btn-warning">ID Validator</button>
 <a href="/pdf/RoomIT_NYM-Grafana.pdf" class="btn btn-success">Monitoring</a> 
-<a href="https://docs.roomit.xyz/validator/mainnet/nym-mixnode/how-to-stake"  class="btn btn-success"  target="_blank">How to Stake</a>
+<a href="https://docs.roomit.xyz/mainnet/nym/nym-mixnode/how-to-stake-your-token"  class="btn btn-success"  target="_blank">How to Stake</a>
 
 </center>
