@@ -4,7 +4,7 @@
             <h2>Mainnet Network</h2><br>
         </div>
         <!-- Page Content -->
-        {% for post in site.posts reversed %}
+        {% for post in site.mainnet reversed %}
         {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         {% if thecycle == 'odd' %}
         <div class="content-section-a">

@@ -19,4 +19,10 @@ markdown: kramdown
 permalink: pretty
 
 
+collections:
+  mainnet:
+    output: true
+  testnet:
+    output: true
+
 

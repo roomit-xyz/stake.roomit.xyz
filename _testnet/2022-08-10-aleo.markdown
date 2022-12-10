@@ -1,0 +1,35 @@
+---
+layout: default
+######## CARD FRONT VARIABLE
+img: aleo.jpeg
+# kind blockchain : tendermint, polkadot, ethereum, near, move.
+kind_blockchain: move
+title: Aleo Network
+modal: aleo-testnet
+# status
+# - finished
+# - ongoing
+# - cancel
+# - preparations / other
+status: cancel
+
+######## DETAILS USED MODAL
+website: "https://aleo.network"
+event_name: "Mining Prover"
+event_link:  ""
+node_id: ""
+
+######### TECHNOLOGY
+os: 
+monitoring: 
+monitoring_pdf: 
+security: ""
+network: ""
+
+######## INFRASTRUCTURE
+# if kind_blockchain is tendermint,please assign  tendermint_ of value
+tendermint_rpc:
+tendermint_api:
+tendermint_grpc:
+tendermint_grpc_web:
+---

@@ -1,0 +1,39 @@
+---
+layout: default
+######## CARD FRONT VARIABLE
+img: aptos.png
+# kind blockchain : tendermint, polkadot, ethereum, near, move.
+kind_blockchain: move
+title: Aptos Blockchain
+modal: aptos-testnet
+# status
+# - finished
+# - ongoing
+# - cancel
+# - preparations / other
+status: finished
+
+######## DETAILS USED MODAL
+website: "https://aptoslabs.com"
+event_name: "Aptos Incentive Testnet"
+event_link:  "https://aptoslabs.com/it2    <br>   https://aptoslabs.com/leaderboard/it3"
+node_id: "AIT2 :
+          <code>0x34c05a76cd0670f614521464b709a9b1133f4e2870ff0cff956dc888e3d28e4b</code>
+          <br>
+          AIT3 :
+          <code>0x87b30b548452c5a3200a1aec4251a1a01b05b15cb74d41e49701665ef4d36804</code>"
+
+######### TECHNOLOGY
+os: Ubuntu 22.04
+monitoring: Grafana, Prometheus, Telegraf
+monitoring_pdf: RoomIT-Aptos_Validator-Grafana.pdf
+security: "Audit (Lynis and Greenbonde), Hardening CIS"
+network: "Wireguard (Communication between Machine)"
+
+######## INFRASTRUCTURE
+# if kind_blockchain is tendermint,please assign  tendermint_ of value
+tendermint_rpc:
+tendermint_api:
+tendermint_grpc:
+tendermint_grpc_web:
+---

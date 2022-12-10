@@ -4,149 +4,40 @@
 </div>
 
 <section class="container d-flex justify-content-center">
-  <!-- Album 1 -->
+   <!-- Album 1 -->
   <div class="row">
+    {% for item in site.testnet %}
     <div class="col-sm-4  text-right mt-3 d-flex justify-content-center">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="img/testnet/aptos.png" alt="Card image cap">
+      <div class="card" style="width: 17rem;">
+        <img class="card-img-top" src="img/testnet/{{item.img}}" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Aptos Blockchain</h5>
+          <h5 class="card-title">{{item.title}}</h5>
           <p class="card-text">
-            <span class="badge badge-primary">finished
-            </span>
+            {% if item.status == "finished" %}
+            <span class="badge badge-primary">{{item.status}}</span>
+            {% elsif item.status == "ongoing" %}
+            <span class="badge badge-warning">{{item.status}}</span>
+            {% elsif item.status == "cancel" %}
+            <span class="badge badge-danger">{{item.status}}</span>
+            {% else %}
+            <span class="badge badge-info">{{item.status}}</span>
+            {% endif %}
           </p>
-          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#aptos-testnet">Info</button>
+          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#{{item.modal}}">Info</button>
         </div>
       </div>
     </div>
-    <!-- limit -->
-    <div class="col-sm-4 text-right mt-3 d-flex justify-content-center">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="img/testnet/alephzero.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Alephzero Blockchain</h5>
-          <p class="card-text">
-            <span class="badge badge-warning">ongoing
-            </span>
-          </p>
-          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#azero-testnet">Info</button>
-        </div>
-      </div>
-    </div>
-    <!-- limit -->
-    <div class="col-sm-4  text-right mt-3 d-flex justify-content-center">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="img/testnet/gitopia.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Gitopia Network</h5>
-          <p class="card-text">
-            <span class="badge badge-warning">ongoing
-            </span>
-          </p>
-          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#gitopia-testnet">Info</button>
-        </div>
-      </div>
-    </div>
-    <!-- limit -->
-    <div class="col-sm-4  text-right mt-3 d-flex justify-content-center">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="img/testnet/chainflip.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">ChainFlip Network</h5>
-          <p class="card-text">
-            <span class="badge badge-warning">ongoing
-            </span>
-          </p>
-          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#chainflip-testnet">Info
-          </button>
-        </div>
-      </div>
-    </div>
-    <!-- limit -->
-    <div class="col-sm-4  text-right mt-3 d-flex justify-content-center">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="img/testnet/okp4.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">OKP4 Network</h5>
-          <p class="card-text">
-            <span class="badge badge-danger">cancel
-            </span>
-          </p>
-          <button type="button" class="btn btn-success" disabled="disabled">Info
-          </button>
-        </div>
-      </div>
-    </div>
-    <!-- limit -->
-    <div class="col-sm-4  text-right mt-3 d-flex justify-content-center">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="img/testnet/aleo.jpeg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Aleo Network</h5>
-          <p class="card-text">
-            <span class="badge badge-danger">cancel
-            </span>
-          </p>
-          <button type="button" class="btn btn-success" disabled="disabled">Info
-          </button>
-        </div>
-      </div>
-    </div>
-    <!-- limit -->
-    <div class="col-sm-4  text-right mt-3 d-flex justify-content-center">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="img/testnet/celestia.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Celestia</h5>
-          <p class="card-text">
-            <span class="badge badge-warning">ongoing
-            </span>
-          </p>
-          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#celestia-testnet">Info
-          </button>
-        </div>
-      </div>
-    </div>
-    <!-- limit -->
-    <div class="col-sm-4  text-right mt-3 d-flex justify-content-center">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="img/testnet/massa.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Massa Network</h5>
-          <p class="card-text">
-            <span class="badge badge-warning">ongoing
-            </span>
-          </p>
-          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#massa-testnet">Info
-          </button>
-        </div>
-      </div>
-    </div>
-    <!-- limit -->
-    <div class="col-sm-4  text-right mt-3 d-flex justify-content-center">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="img/testnet/masa.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Masa Finance</h5>
-          <p class="card-text">
-            <span class="badge badge-primary">finished
-            </span>
-          </p>
-          <button type="button" class="btn btn-success" disabled="disabled">Info
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
+    {% endfor %}
   </div>
 
+  {% for item in site.testnet %}
   <!-- Modal -->
-  <div class="modal fade" id="aptos-testnet" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  <div class="modal fade" id="{{item.modal}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">APTOS BLOCKCHAIN</h5>
+          <h5 class="modal-title" id="exampleModalLabel">{{item.title}}</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -157,232 +48,96 @@
           <div class="row">
             <div class="col-4">Website</div>
             <div class="col-6">
-              <a href="https://aptoslabs.com">Aptos Website</a>
+              <a href="{{item.website}}">{{item.title}}</a>
             </div>
           </div>
           <div class="row">
-            <div class="col-4">Event</div>
-            <div class="col-6">Aptos Incentive Testnet</div>
+            <div class="col-4">Event Name</div>
+            <div class="col-6">{{item.event_name}}</div>
           </div>
           <div class="row">
             <div class="col-4">Link Event</div>
             <div class="col-6">
-              https://aptoslabs.com/it2
-              <br>
-              https://aptoslabs.com/leaderboard/it3
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">Id Node</div>
-            <div class="col-6">AIT2 :
-              <code>0x34c05a76cd0670f614521464b709a9b1133f4e2870ff0cff956dc888e3d28e4b</code>
-              <br>AIT3 :
-              <code>0x87b30b548452c5a3200a1aec4251a1a01b05b15cb74d41e49701665ef4d36804</code>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">Status</div>
-            <div class="col-6">
-              <span class="badge badge-success">success</span>
-            </div>
-          </div>
-          <h3>Technology</h3>
-          <div class="row">
-            <div class="col-4">OS</div>
-            <div class="col-6">Ubuntu 22.04</div>
-          </div>
-          <div class="row">
-            <div class="col-4">Application</div>
-            <div class="col-6">Aptos Blockchain (Dockerizing)</div>
-          </div>
-          <div class="row">
-            <div class="col-4">Monitoring</div>
-            <div class="col-6">Grafana, Prometheus, Telegraf (<a href="/pdf/RoomIT-Aptos_Validator-Grafana.pdf">
-                Monitoing APT</a>
-              )
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">Security</div>
-            <div class="col-6">Audit (Lynis and Greenbonde), Hardening CIS</div>
-          </div>
-          <div class="row">
-            <div class="col-4">Network</div>
-            <div class="col-6">Wireguard (Communication between Machine)</div>
-          </div>
-        </div>
-        <!-- limit  -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="modal fade" id="azero-testnet" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">ALEPHZERO BLOCKCHAIN</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <!-- limit  -->
-          <h3>Informations</h3>
-          <div class="row">
-            <div class="col-4">Website</div>
-            <div class="col-6">
-              <a href="https://alephzero.org/">Alephzero Website</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">Event</div>
-            <div class="col-6">Mainnet Validator Global</div>
-          </div>
-          <div class="row">
-            <div class="col-4">Link Event</div>
-            <div class="col-6">
-              <a
-                href="https://alephzero.org/blog/nomination-pools-mainnet/">https://alephzero.org/blog/nomination-pools-mainnet/</a>
+             <a href="{{item.event_link}}" target=_blank>Website of Event</a>
             </div>
           </div>
           <div class="row">
             <div class="col-4">Id Node</div>
             <div class="col-6">
-              <code>5FjG4uqoHiHgrvkNRn73nkcTm3xQzdsBm6p8tZxgDBqFYbLR</code>
+                 {{item.node_id}}
             </div>
           </div>
           <div class="row">
             <div class="col-4">Status</div>
             <div class="col-6">
-              <span class="badge badge-warning">ongoing</span>
+              {% if item.status == "finished" %}
+              <span class="badge badge-primary">{{item.status}}</span>
+              {% elsif item.status == "ongoing" %}
+              <span class="badge badge-warning">{{item.status}}</span>
+              {% elsif item.status == "cancel" %}
+              <span class="badge badge-danger">{{item.status}}</span>
+              {% else %}
+              <span class="badge badge-info">{{item.status}}</span>
+              {% endif %}
             </div>
           </div>
           <h3>Technology</h3>
           <div class="row">
             <div class="col-4">OS</div>
-            <div class="col-6">Ubuntu 22.04</div>
+            <div class="col-6">{{item.os}}</div>
           </div>
           <div class="row">
             <div class="col-4">Application</div>
-            <div class="col-6">Alephzero Blockchain (Dockerizing)</div>
+            <div class="col-6">{{item.title}}</div>
           </div>
           <div class="row">
             <div class="col-4">Monitoring</div>
-            <div class="col-6">Grafana, Prometheus, Telegraf (<a href="/pdf/RoomIT_AlephZero-Grafana.pdf">
-                Monitoing AZERO</a>
-              )
+            <div class="col-6">{{item.monitoring}} {% if item.monitoring_pdf != null %} | <a href="/pdf/{{item.monitoring_pdf}}"> Report </a> {% endif %}
             </div>
           </div>
           <div class="row">
             <div class="col-4">Security</div>
-            <div class="col-6">Audit (Lynis and Greenbonde), Hardening CIS</div>
+            <div class="col-6">{{item.security}}</div>
           </div>
           <div class="row">
             <div class="col-4">Network</div>
-            <div class="col-6">Wireguard (Communication between Machine)</div>
+            <div class="col-6">{{ item.network }}</div>
           </div>
-        </div>
-        <!-- limit  -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="modal fade" id="gitopia-testnet" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">GITOPIA</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <!-- limit  -->
-          <h3>Informations</h3>
-          <div class="row">
-            <div class="col-4">Website</div>
-            <div class="col-6">
-              <a href="https://gitopia.com">Gitopia</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">Event</div>
-            <div class="col-6">Janus Testnet 2</div>
-          </div>
-          <div class="row">
-            <div class="col-4">Link Event</div>
-            <div class="col-6">
-              <a href="https://gitopia.explorers.guru/validator/gitopiavaloper1zwjdxszdlnx23t4qj6pmf695qlwlyfu5ztauw6">RoomIT
-                Validator</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">Id Node</div>
-            <div class="col-6">
-              <code>gitopiavaloper1zwjdxszdlnx23t4qj6pmf695qlwlyfu5ztauw6</code>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">Status</div>
-            <div class="col-6">
-              <span class="badge badge-warning">ongoing</span>
-            </div>
-          </div>
-          <h3>Technology</h3>
-          <div class="row">
-            <div class="col-4">OS</div>
-            <div class="col-6">Ubuntu 22.04</div>
-          </div>
-          <div class="row">
-            <div class="col-4">Application</div>
-            <div class="col-6">Gitopia Based on Tendermint</div>
-          </div>
-          <div class="row">
-            <div class="col-4">Monitoring</div>
-            <div class="col-6">Grafana, Prometheus, Telegraf (<a href="/pdf/RoomIT_Gitopia-Grafana.pdf">
-                Monitoing Gitopia</a>
-              )
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">Security</div>
-            <div class="col-6">Audit (Lynis and Greenbonde), Hardening CIS</div>
-          </div>
-          <div class="row">
-            <div class="col-4">Network</div>
-            <div class="col-6">Wireguard (Communication between Machine)</div>
-          </div>
-          <div class="row">
-            <div class="col-4">Technical Document</div>
-            <div class="col-6">
-              <a href="https://docs.roomit.xyz/validator-testnet-gitopia/">Gitopia Technical</a>
-            </div>
-          </div>
+          {% if item.kind_blockchain == "tendermint" %}
           <h3>Node Infrastructure</h3>
+          {% if item.tendermint_rpc != null %}
           <div class="row">
             <div class="col-4">RPC</div>
             <div class="col-6">
-              <a href="https://rpc.gitopia.roomit.xyz">https://rpc.gitopia.roomit.xyz</a>
+              <a href="{{item.tendermint_rpc}}">{{item.tendermint_rpc}}</a>
             </div>
           </div>
+          {% endif %}
+          {% if item.tendermint_api != null %}
           <div class="row">
             <div class="col-4">API</div>
             <div class="col-6">
-              <a href="https://api.gitopia.roomit.xyz">https://api.gitopia.roomit.xyz</a>
+              <a href="{{item.tendermint_api}}">{{item.tendermint_api}}</a>
             </div>
           </div>
+          {% endif %}
+          {% if item.tendermint_grpc != null %}
           <div class="row">
             <div class="col-4">gRPC</div>
             <div class="col-6">
-              <a href="https://grpc.gitopia.roomit.xyz">https://grpc.gitopia.roomit.xyz</a>
+              <a href="{{item.tendermint_grpc}}">{{item.tendermint_grpc}}</a>
             </div>
           </div>
+          {% endif %}
+          {% if item.tendermint_grpc_web != null %}
+          <div class="row">
+            <div class="col-4">gRPC Web</div>
+            <div class="col-6">
+              <a href="{{item.tendermint_grpc}}">{{item.tendermint_grpc_web}}</a>
+            </div>
+          </div>
+          {% endif %}
+          {% endif %}
         </div>
         <!-- limit  -->
         <div class="modal-footer">
@@ -391,263 +146,7 @@
       </div>
     </div>
   </div>
-  <div class="modal fade" id="chainflip-testnet" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">ChainFLip</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <!-- limit  -->
-          <h3>Informations</h3>
-          <div class="row">
-            <div class="col-4">Website</div>
-            <div class="col-6">
-              <a href="https://chainflip.io/">ChainFlip</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">Event</div>
-            <div class="col-6">Perseverance Testnet</div>
-          </div>
-          <div class="row">
-            <div class="col-4">Link Event</div>
-            <div class="col-6">
-              <a
-                href="https://blocks-perseverance.chainflip.io/validator/cFJeTec6nZ81729HNebTp9Yb8DfUxfwmKmdvZvimGZnokLrvK">RoomIT
-                Validator</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">Id Node</div>
-            <div class="col-6">
-              <code>cFJeTec6nZ81729HNebTp9Yb8DfUxfwmKmdvZvimGZnokLrvK</code>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">Status</div>
-            <div class="col-6">
-              <span class="badge badge-warning">ongoing</span>
-            </div>
-          </div>
-          <h3>Technology</h3>
-          <div class="row">
-            <div class="col-4">OS</div>
-            <div class="col-6">Ubuntu 22.04</div>
-          </div>
-          <div class="row">
-            <div class="col-4">Application</div>
-            <div class="col-6">Gitopia Based on Tendermint</div>
-          </div>
-          <div class="row">
-            <div class="col-4">Security</div>
-            <div class="col-6">Audit (Lynis and Greenbonde), Hardening CIS</div>
-          </div>
-          <div class="row">
-            <div class="col-4">Network</div>
-            <div class="col-6">Wireguard (Communication between Machine)</div>
-          </div>
-
-          <!-- limit  -->
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="modal fade" id="testnet5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="modal fade" id="testne" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">GITOPIA</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="modal fade" id="celestia-testnet" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">CELESTIA</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <!-- limit  -->
-          <h3>Informations</h3>
-          <div class="row">
-            <div class="col-4">Website</div>
-            <div class="col-6">
-              <a href="https://celestia.org/">Celestia</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">Event</div>
-            <div class="col-6">Janus Testnet 2</div>
-          </div>
-          <div class="row">
-            <div class="col-4">Link Event</div>
-            <div class="col-6">
-              <a href="https://gitopia.explorers.guru/validator/gitopiavaloper1zwjdxszdlnx23t4qj6pmf695qlwlyfu5ztauw6">RoomIT
-                Validator</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">Id Node</div>
-            <div class="col-6">
-              <code>gitopiavaloper1zwjdxszdlnx23t4qj6pmf695qlwlyfu5ztauw6</code>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">Status</div>
-            <div class="col-6">
-              <span class="badge badge-warning">ongoing</span>
-            </div>
-          </div>
-          <h3>Technology</h3>
-          <div class="row">
-            <div class="col-4">OS</div>
-            <div class="col-6">Ubuntu 22.04</div>
-          </div>
-          <div class="row">
-            <div class="col-4">Application</div>
-            <div class="col-6">Gitopia Based on Tendermint</div>
-          </div>
-
-          <div class="row">
-            <div class="col-4">Security</div>
-            <div class="col-6">Audit (Lynis and Greenbonde), Hardening CIS</div>
-          </div>
-          <div class="row">
-            <div class="col-4">Network</div>
-            <div class="col-6">Wireguard (Communication between Machine)</div>
-          </div>
-          <div class="row">
-            <div class="col-4">Technical Document</div>
-            <div class="col-6">
-              <a href="https://docs.roomit.xyz/validator-testnet-gitopia/">Gitopia Technical</a>
-            </div>
-          </div>
-          <h3>Node Infrastructure</h3>
-          <div class="row">
-            <div class="col-4">RPC</div>
-            <div class="col-6">
-              <a href="https://rpc.gitopia.roomit.xyz">https://rpc.gitopia.roomit.xyz</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">API</div>
-            <div class="col-6">
-              <a href="https://api.gitopia.roomit.xyz">https://api.gitopia.roomit.xyz</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">gRPC</div>
-            <div class="col-6">
-              <a href="https://grpc.gitopia.roomit.xyz">https://grpc.gitopia.roomit.xyz</a>
-            </div>
-          </div>
-        <!-- limit  -->
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-  </div>
-  <div class="modal fade" id="massa-testnet" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">CHAINFLIP</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="modal fade" id="testnet8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">MINIMA</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- limit -->  
-  <!-- <div class="modal fade" id="massa-testnet" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">CHAINFLIP</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- limit -->  
+  {% endfor %}
 </section>
+
+
