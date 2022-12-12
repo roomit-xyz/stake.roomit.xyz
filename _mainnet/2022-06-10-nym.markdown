@@ -21,9 +21,9 @@ Found Our Node Mixnode
 
 <a href="https://mixnet.explorers.guru/mixnode/AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo" class="btn btn-success margin-top-4" target="_blank">Explorer</a>
 <input type="text" id="clip_one" value="AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo" hidden=true>
-<button onclick="clip_one_func()"   id="demo-1" class="btn btn-warning margin-top-4">ID Validator</button>
 <a href="https://health.roomit.xyz/status/nym-mixnode/" class="btn btn-info margin-top-4" target="_blank">Health Check</a>
-<a href="/pdf/RoomIT_NYM-Grafana.pdf" class="btn btn-success margin-top-4">Monitoring</a> 
+<a href="/pdf/RoomIT_NYM-Grafana.pdf" class="btn btn-success margin-top-4">Monitoring View</a> 
 </center>
 <br>
+<button onclick="clip_one_func()"   id="demo-1" class="btn btn-warning margin-top-4">ID Validator</button>
 <a href="https://docs.roomit.xyz/mainnet/nym/nym-mixnode/how-to-stake-your-token"  class="btn btn-success margin-top-4"  target="_blank">Stake With Us</a>
