@@ -26,4 +26,4 @@ Found Our Node Mixnode
 <a href="/pdf/RoomIT_NYM-Grafana.pdf" class="btn btn-success margin-top-4">Monitoring</a> 
 </center>
 <br>
-<a href="https://docs.roomit.xyz/mainnet/nym/nym-mixnode/how-to-stake-your-token"  class="btn btn-success margin-top-4"  target="_blank">How to Stake</a>
+<a href="https://docs.roomit.xyz/mainnet/nym/nym-mixnode/how-to-stake-your-token"  class="btn btn-success margin-top-4"  target="_blank">Stake With Us</a>
