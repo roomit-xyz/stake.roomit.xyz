@@ -1,0 +1,35 @@
+---
+layout: default
+######## CARD FRONT VARIABLE
+img: Q.png
+# kind blockchain : tendermint, polkadot, ethereum, near, move.
+kind_blockchain: other
+title: Q Blockchain 
+modal: q-testnet
+# status
+# - finished
+# - ongoing
+# - cancel
+# - preparations / other
+status: ongoing
+
+######## DETAILS USED MODAL
+website: "https://q.org/"
+event_name: "Validator Incentivized Testnet"
+event_link:  "https://medium.com/q-blockchain/q-blockchain-validator-onboarding-program-part-1-validator-incentivized-testnet-567ef6e4002e"
+node_id: "<code>ITN-RoomIT-3e7a1</code>"
+
+######### TECHNOLOGY
+os: Ubuntu 22.04
+monitoring: Grafana, Prometheus, Telegraf
+monitoring_pdf:
+security: "Audit (Lynis and Greenbonde), Hardening CIS"
+network: "Wireguard (Communication between Machine)"
+
+######## INFRASTRUCTURE
+# if kind_blockchain is tendermint,please assign  tendermint_ of value
+tendermint_rpc: 
+tendermint_api: 
+tendermint_grpc: 
+tendermint_grpc_web:
+---
