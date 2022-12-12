@@ -1,0 +1,154 @@
+<div class="content-section-a">
+<div class="d-flex justify-content-center" id="archieve">
+  <h2>Archieve Testnet Network</h2>
+  <br>
+</div>
+
+<section class="container d-flex justify-content-center">
+   <!-- Album 1 -->
+  <div class="row">
+    {% for item in site.archieve %}
+    <div class="col-sm-4  text-right mt-3 d-flex justify-content-center">
+      <div class="card" style="width: 17rem;">
+        <img class="card-img-top" src="img/testnet/{{item.img}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{item.title}}</h5>
+          <p class="card-text">
+            {% if item.status == "finished" %}
+            <span class="badge badge-primary">{{item.status}}</span>
+            {% elsif item.status == "ongoing" %}
+            <span class="badge badge-warning">{{item.status}}</span>
+            {% elsif item.status == "cancel" %}
+            <span class="badge badge-danger">{{item.status}}</span>
+            {% else %}
+            <span class="badge badge-info">{{item.status}}</span>
+            {% endif %}
+          </p>
+          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#{{item.modal}}">Info</button>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  {% for item in site.archieve %}
+  <!-- Modal -->
+  <div class="modal fade" id="{{item.modal}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">{{item.title}}</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- limit  -->
+          <h3>Informations</h3>
+          <div class="row">
+            <div class="col-4">Website</div>
+            <div class="col-6">
+              <a href="{{item.website}}">{{item.title}}</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">Event Name</div>
+            <div class="col-6">{{item.event_name}}</div>
+          </div>
+          <div class="row">
+            <div class="col-4">Link Event</div>
+            <div class="col-6">
+             <a href="{{item.event_link}}" target=_blank>Website of Event</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">Id Node</div>
+            <div class="col-6">
+                 <code>{{item.node_id}}</code>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">Status</div>
+            <div class="col-6">
+              {% if item.status == "finished" %}
+              <span class="badge badge-primary">{{item.status}}</span>
+              {% elsif item.status == "ongoing" %}
+              <span class="badge badge-warning">{{item.status}}</span>
+              {% elsif item.status == "cancel" %}
+              <span class="badge badge-danger">{{item.status}}</span>
+              {% else %}
+              <span class="badge badge-info">{{item.status}}</span>
+              {% endif %}
+            </div>
+          </div>
+          <h3>Technology</h3>
+          <div class="row">
+            <div class="col-4">OS</div>
+            <div class="col-6">{{item.os}}</div>
+          </div>
+          <div class="row">
+            <div class="col-4">Application</div>
+            <div class="col-6">{{item.title}}</div>
+          </div>
+          <div class="row">
+            <div class="col-4">Monitoring</div>
+            <div class="col-6">{{item.monitoring}} {% if item.monitoring_pdf != null %} | <a href="/pdf/{{item.monitoring_pdf}}"> Report </a> {% endif %}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">Security</div>
+            <div class="col-6">{{item.security}}</div>
+          </div>
+          <div class="row">
+            <div class="col-4">Network</div>
+            <div class="col-6">{{ item.network }}</div>
+          </div>
+          {% if item.kind_blockchain == "tendermint" %}
+          <h3>Node Infrastructure</h3>
+          {% if item.tendermint_rpc != null %}
+          <div class="row">
+            <div class="col-4">RPC</div>
+            <div class="col-6">
+              <a href="{{item.tendermint_rpc}}">{{item.tendermint_rpc}}</a>
+            </div>
+          </div>
+          {% endif %}
+          {% if item.tendermint_api != null %}
+          <div class="row">
+            <div class="col-4">API</div>
+            <div class="col-6">
+              <a href="{{item.tendermint_api}}">{{item.tendermint_api}}</a>
+            </div>
+          </div>
+          {% endif %}
+          {% if item.tendermint_grpc != null %}
+          <div class="row">
+            <div class="col-4">gRPC</div>
+            <div class="col-6">
+              <a href="{{item.tendermint_grpc}}">{{item.tendermint_grpc}}</a>
+            </div>
+          </div>
+          {% endif %}
+          {% if item.tendermint_grpc_web != null %}
+          <div class="row">
+            <div class="col-4">gRPC Web</div>
+            <div class="col-6">
+              <a href="{{item.tendermint_grpc}}">{{item.tendermint_grpc_web}}</a>
+            </div>
+          </div>
+          {% endif %}
+          {% endif %}
+        </div>
+        <!-- limit  -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+
+</div>

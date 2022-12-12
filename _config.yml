@@ -24,5 +24,7 @@ collections:
     output: true
   testnet:
     output: true
+  archieve:
+    output: true
 
 
