@@ -23,7 +23,7 @@ permalink: pretty
 plugins:
     - jekyll-minifier
 
-
+minify: true
 
 jekyll-minifier:
   preserve_php: true                # Default: false
