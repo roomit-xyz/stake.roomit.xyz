@@ -13,6 +13,7 @@ copyright: 'Copyright &copy; 2022 Admin. All Rights Reserved.'
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #
+environment: production
 
 # Build settings
 markdown: kramdown
