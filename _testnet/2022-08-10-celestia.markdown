@@ -32,5 +32,5 @@ network: "Wireguard (Communication between Machine)"
 tendermint_rpc: https://rpc.gitopia.roomit.xyz
 tendermint_api: https://api.gitopia.roomit.xyz
 tendermint_grpc: https://grpc.gitopia.roomit.xyz
-tendermint_grpc_web:
+tendermint_grpc_web: https://grpc-web.gitopia.roomit.xyz
 ---
