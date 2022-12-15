@@ -6,9 +6,9 @@ title: Gravity Bridge Validator<br>
 description: |
 ---
 <div class="col-8">
-<span class="badge badge-primary">IBC </span>
-<span class="badge badge-primary">Relayer  </span>
-<span class="badge badge-primary">Authz (restaking)  </span>
+<span class="badge badge-primary" aria-label="Gravity <=> Osmosis" data-balloon-pos="up">IBC </span>
+<span class="badge badge-primary" aria-label="Gravity <=> Ethereum" data-balloon-pos="up">Relayer  </span>
+<span class="badge badge-primary" aria-label="Auto Compound" data-balloon-pos="up">Authz</span>
 </div>
 
 Gravity Bridge chain will act as neutral ethereum to cosmos bridge. Through IBC(Interblockchain communication), many different cosmos based projects can connect and use the bridge to access ERC20 assets, like dai or usdc, without having to operate the gravity orchestrator on their own chain.
