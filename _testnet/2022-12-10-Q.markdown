@@ -16,7 +16,7 @@ status: preparations
 ######## DETAILS USED MODAL
 website: "https://q.org/"
 event_name: "Validator Incentivized Testnet"
-event_link:  "https://medium.com/q-blockchain/q-blockchain-validator-onboarding-program-part-1-validator-incentivized-testnet-567ef6e4002e"
+event_link:  "https://stats.qtestnet.org/"
 node_id: "<code>ITN-RoomIT-3e7a1</code>"
 
 ######### TECHNOLOGY
