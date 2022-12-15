@@ -6,18 +6,18 @@ title: Gravity Bridge Validator<br>
 description: |
 ---
 <div class="col-8">
-<span class="badge badge-primary" aria-label="Gravity <=> Osmosis" data-balloon-pos="up">IBC</span><div></div>
-<span class="badge badge-primary" aria-label="Gravity <=> Ethereum" data-balloon-pos="up">Relayer</span><div></div>
-<span class="badge badge-primary" aria-label="Auto Compound" data-balloon-pos="up">Authz</span>
+<span class="badge badge-primary" aria-label="Gravity <=> Osmosis" data-balloon-pos="up">IBC</span>  &nbsp;
+<span class="badge badge-primary" aria-label="Gravity <=> Ethereum" data-balloon-pos="up">Relayer </span>  &nbsp;
+<span class="badge badge-primary" aria-label="Auto Compound" data-balloon-pos="up">Authz</span>  &nbsp;
 </div>
 
 Gravity Bridge chain will act as neutral ethereum to cosmos bridge. Through IBC(Interblockchain communication), many different cosmos based projects can connect and use the bridge to access ERC20 assets, like dai or usdc, without having to operate the gravity orchestrator on their own chain.
 
 <p align="center"><b>Our Nodes </b></p>
-<a href="https://gravity.explorers.guru/validator/gravityvaloper1ssduj8c0cc8kquljvw3ygq9hduvcysnf590lmz" class="btn btn-success margin-top-4" target="_blank">Explorer</a><div></div>
-<input type="text" id="clip_two" value="gravityvaloper1ssduj8c0cc8kquljvw3ygq9hduvcysnf590lmz" hidden=true><div></div>
-<a href="https://health.roomit.xyz/status/gravity-bridge/" class="btn btn-info margin-top-4" target="_blank">Health Check</a><div></div>
+<a href="https://gravity.explorers.guru/validator/gravityvaloper1ssduj8c0cc8kquljvw3ygq9hduvcysnf590lmz" class="btn btn-success margin-top-4" target="_blank">Explorer</a>  &nbsp;
+<input type="text" id="clip_two" value="gravityvaloper1ssduj8c0cc8kquljvw3ygq9hduvcysnf590lmz" hidden=true>  &nbsp;
+<a href="https://health.roomit.xyz/status/gravity-bridge/" class="btn btn-info margin-top-4" target="_blank">Health Check</a>  &nbsp;
 <a href="/pdf/RoomIT_Gravity Bridge-Grafana.pdf" class="btn btn-success margin-top-4">Monitoring View</a> 
 
-<button onclick="clip_two_func()"  class="btn btn-warning margin-top-4">ID Validator</button><div></div>
+<button onclick="clip_two_func()"  class="btn btn-warning margin-top-4">ID Validator</button>  &nbsp;
 <a href="https://wallet.keplr.app/chains/gravity-bridge?modal=validator&chain=gravity-bridge-3&validator_address=gravityvaloper1ssduj8c0cc8kquljvw3ygq9hduvcysnf590lmz&referral=true" class="btn btn-success margin-top-4" target="_blank">Stake With Us</a>
