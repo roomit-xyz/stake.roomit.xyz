@@ -12,6 +12,7 @@ modal: aleo-testnet
 # - cancel
 # - preparations / other
 status: cancel
+reason: "Need Hight Spec"
 
 ######## DETAILS USED MODAL
 website: "https://aleo.network"

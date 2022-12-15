@@ -20,6 +20,11 @@
             <span class="badge badge-warning">{{item.status}}</span>
             {% elsif item.status == "cancel" %}
             <span class="badge badge-danger">{{item.status}}</span>
+            <div>
+            <code>
+              {{%item.reason%}}
+            </code>
+            </div>
             {% else %}
             <span class="badge badge-info">{{item.status}}</span>
             {% endif %}
@@ -76,7 +81,7 @@
               {% elsif item.status == "ongoing" %}
               <span class="badge badge-warning">{{item.status}}</span>
               {% elsif item.status == "cancel" %}
-              <span class="badge badge-danger">{{item.status}}</span>
+              <span class="badge badge-danger">{{item.status}} | {{%item.reason%}}</span>
               {% else %}
               <span class="badge badge-info">{{item.status}}</span>
               {% endif %}

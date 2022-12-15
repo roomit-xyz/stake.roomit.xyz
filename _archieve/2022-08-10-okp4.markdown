@@ -12,6 +12,7 @@ modal: okp4-testnet
 # - cancel
 # - preparations / other
 status: cancel
+reason: "Not selected"
 
 ######## DETAILS USED MODAL
 website: ""

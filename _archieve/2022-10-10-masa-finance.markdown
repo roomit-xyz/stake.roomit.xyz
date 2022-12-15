@@ -12,6 +12,7 @@ modal: masa-testnet
 # - cancel
 # - preparations / other
 status: finished
+reason:
 
 ######## DETAILS USED MODAL
 website: "https://masa.finance"
