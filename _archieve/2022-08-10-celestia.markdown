@@ -17,8 +17,8 @@ reason: "Not enough token"
 ######## DETAILS USED MODAL
 website: "https://celestia.org/"
 event_name: "Janus Testnet 2"
-event_link:  "https://gitopia.explorers.guru/validator/gitopiavaloper1zwjdxszdlnx23t4qj6pmf695qlwlyfu5ztauw6"
-node_id: "gitopiavaloper1zwjdxszdlnx23t4qj6pmf695qlwlyfu5ztauw6"
+event_link:  "https://celestia.explorers.guru/validator/"
+node_id: ""
 
 ######### TECHNOLOGY
 os: Ubuntu 22.04
