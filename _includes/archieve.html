@@ -116,7 +116,7 @@
             <div class="col-4">RPC</div>
             <div class="col-6">
               <a href="{{item.tendermint_rpc}}">{{item.tendermint_rpc}}  {% if item.status == "cancel" or item.status == "finished" %}
-              <span class="badge badge-info">offline</span> 
+              <span class="badge badge-dark">offline</span> 
               {% endif %}
               </a>
             </div>
@@ -127,7 +127,7 @@
             <div class="col-4">API</div>
             <div class="col-6">
               <a href="{{item.tendermint_api}}">{{item.tendermint_api}} {% if item.status == "cancel" or item.status == "finished" %}
-                <span class="badge badge-info">offline</span> 
+                <span class="badge badge-dark">offline</span> 
                 {% endif %}
               </a>
             </div>
@@ -138,7 +138,7 @@
             <div class="col-4">gRPC</div>
             <div class="col-6">
               <a href="{{item.tendermint_grpc}}">{{item.tendermint_grpc}} {% if item.status == "cancel" or item.status == "finished" %}
-                <span class="badge badge-info">offline</span> 
+                <span class="badge badge-dark">offline</span> 
                 {% endif %}
               </a>
             </div>
@@ -149,7 +149,7 @@
             <div class="col-4">gRPC Web</div>
             <div class="col-6">
               <a href="{{item.tendermint_grpc}}">{{item.tendermint_grpc_web}} {% if item.status == "cancel" or item.status == "finished" %}
-                <span class="badge badge-info">offline</span> 
+                <span class="badge badge-dark">offline</span> 
                 {% endif %}
               </a>
             </div>
