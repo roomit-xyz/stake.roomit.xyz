@@ -1,8 +1,12 @@
 <center>
+    <div class="content-section-a">
+        <div class="d-flex justify-content-center" id="service">
+          <h2>Mainnet Testnet</h2>
+          <br>
+    </div>
+        
     <section id="services">
-        <div class="d-flex justify-content-center">
-            <h2>Mainnet Network</h2><br>
-        </div>
+     
         <!-- Page Content -->
         {% for post in site.mainnet reversed %}
         {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
