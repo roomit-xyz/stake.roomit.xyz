@@ -107,6 +107,12 @@
           <h3>Node Infrastructure</h3>
           {% if item.tendermint_rpc != null %}
           <div class="row">
+            <div class="col-4">Monitoring</div>
+            <div class="col-6">
+              <a href="{{item.tendermint_monitoring}}">{{item.tendermint_monitoring}}</a>
+            </div>
+          </div>
+          <div class="row">
             <div class="col-4">RPC</div>
             <div class="col-6">
               <a href="{{item.tendermint_rpc}}">{{item.tendermint_rpc}}</a>
