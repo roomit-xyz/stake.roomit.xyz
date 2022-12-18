@@ -159,8 +159,8 @@ p.copyright {
 
 @font-face {
     font-family: "RoomIT";
-    src: url('/fonts/Arista-Pro-Alternate-ExtraLight-trial.ttf');
-    /* src: url('/fonts/Queen_of_Camelot.otf'); */
+    /* src: url('/fonts/Arista-Pro-Alternate-ExtraLight-trial.ttf'); */
+    src: url('/fonts/Fonarto.ttf');
 }
 
 
