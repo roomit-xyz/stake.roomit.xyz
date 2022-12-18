@@ -63,18 +63,9 @@
 
   }
 
-  $('div.modal').on('show.bs.modal', function () {
-    var modal = this;
-    var hash = modal.id;
-    window.location.hash = hash;
-    window.onhashchange = function () {
-      if (!location.hash) {
-        $(modal).modal('hide');
-      }
-    }
-  });
+ 
 
-
+  //BAR Menu Navigator
   document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener('scroll', function () {
       if (window.scrollY > 50) {
@@ -89,4 +80,6 @@
       }
     });
   });
+
+
 </script>
