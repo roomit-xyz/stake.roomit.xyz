@@ -66,13 +66,14 @@ main {
 }
 
 main > .intro {
-	font-family: 'Signature', sans-serif;
+	font-family: 'RoomIT';
 	font-size: 3.75em;
 	font-weight: 600;
 }
 
 main > .tagline {
 	font-size: 1.5rem;
+    font-family: 'Signature';
 	margin: 1.5rem 0;
 	font-weight: 100;
 }
@@ -159,8 +160,7 @@ p.copyright {
 
 @font-face {
     font-family: "RoomIT";
-    /* src: url('/fonts/Arista-Pro-Alternate-ExtraLight-trial.ttf'); */
-    src: url('/fonts/Fonarto.ttf');
+    src: url('/fonts/Arista-Pro-Alternate-ExtraLight-trial.ttf');
 }
 
 
