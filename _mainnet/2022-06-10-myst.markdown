@@ -2,7 +2,7 @@
 layout: default
 img: mysterium.png
 category: Services
-title: Mysterium Validator
+title: Mysterium
 description: |
 ---
 <div class="col-8">

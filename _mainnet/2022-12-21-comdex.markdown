@@ -2,7 +2,7 @@
 layout: default
 img: comdex.png
 category: Services
-title: Comdex Validator<br>
+title: Comdex<br>
 description: |
 ---
 <!-- <div class="col-8">

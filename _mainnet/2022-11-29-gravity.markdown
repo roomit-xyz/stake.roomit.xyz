@@ -2,7 +2,7 @@
 layout: default
 img: gravity.png
 category: Services
-title: Gravity Bridge Validator<br>
+title: Gravity Bridge<br>
 description: |
 ---
 <div class="col-8">
