@@ -5,11 +5,10 @@ category: Services
 title: Comdex<br>
 description: |
 ---
-<!-- <div class="col-8">
+<div class="col-8">
 <span class="badge badge-primary" aria-label="Gravity <=> Osmosis" data-balloon-pos="up">IBC</span> 
-<span class="badge badge-primary" aria-label="Gravity <=> Ethereum" data-balloon-pos="up">Relayer</span> 
 <span class="badge badge-primary" aria-label="Auto Compound" data-balloon-pos="up">Authz</span> 
-</div> -->
+</div>
 
 Interchain DeFi Infrastructure, A DeFi infrastructure layer for the Cosmos ecosystem. A layer-1 infrastructure for seamless deployment of DeFi applications in the Cosmos ecosystem, powering DeFi in the multi-chain future.
 
