@@ -1,0 +1,36 @@
+---
+layout: default
+######## CARD FRONT VARIABLE
+img: neutron.jpg
+# kind blockchain : tendermint, polkadot, ethereum, near, move.
+kind_blockchain: tendermint
+title: Neutron
+modal: neutron-testnet
+# status
+# - finished
+# - ongoing
+# - cancel
+# - preparations / other
+status: finished
+reason: ""
+
+######## DETAILS USED MODAL
+website: "https://neutron.org"
+event_name: "Neutron OG TestnetIncentive"
+event_link:  "https://neutron.explorers.guru/validator/neutronvaloper16walwulrvqaul6995gd03rcqcy7w9ag3300nqd"
+node_id: "neutronvaloper16walwulrvqaul6995gd03rcqcy7w9ag3300nqd"
+
+######### TECHNOLOGY
+os: Ubuntu 22.04
+monitoring: Grafana, Prometheus, Telegraf
+monitoring_pdf: ""
+security: "Audit (Lynis and Greenbonde), Hardening CIS"
+network: "Wireguard (Communication between Machine)"
+
+######## INFRASTRUCTURE
+# if kind_blockchain is tendermint,please assign  tendermint_ of value
+tendermint_rpc: neutron-rpc.nodexcapital.com
+tendermint_api: neutron-api.nodexcapital.com
+tendermint_grpc: neutron-grpc.nodexcapital.com
+tendermint_grpc_web:
+---
