@@ -11,8 +11,8 @@ modal: celestia-testnet
 # - ongoing
 # - cancel
 # - preparations / other
-status: ongoing
-reason: 
+status: cancel
+reason: Token is not enough
 
 ######## DETAILS USED MODAL
 website: "https://celestia.org/"
