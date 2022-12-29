@@ -15,9 +15,9 @@ Gravity Bridge chain will act as neutral ethereum to cosmos bridge. Through IBC(
 
 <p align="center"><b>Our Nodes </b></p>
 <a href="https://gravity.explorers.guru/validator/gravityvaloper1ssduj8c0cc8kquljvw3ygq9hduvcysnf590lmz" class="btn btn-success margin-top-4" target="_blank">Explorer</a> 
-<input type="text" id="clip_two" value="gravityvaloper1ssduj8c0cc8kquljvw3ygq9hduvcysnf590lmz" hidden=true> 
+<input type="text" id="clip_grav" value="gravityvaloper1ssduj8c0cc8kquljvw3ygq9hduvcysnf590lmz" hidden=true> 
 <a href="https://health.roomit.xyz/status/gravity-bridge/" class="btn btn-info margin-top-4" target="_blank">Health Check</a> 
 <a href="/pdf/RoomIT_GravityBridge-Grafana.pdf" class="btn btn-success margin-top-4">Monitoring View</a>
 
-<button onclick="clip_two_func()"  class="btn btn-warning margin-top-4">ID Validator</button>
+<button onclick="clip_grav_func()"  class="btn btn-warning margin-top-4">ID Validator</button>
 <a href="https://wallet.keplr.app/chains/gravity-bridge?modal=validator&chain=gravity-bridge-3&validator_address=gravityvaloper1ssduj8c0cc8kquljvw3ygq9hduvcysnf590lmz&referral=true" class="btn btn-success margin-top-4" target="_blank">Stake With Us</a>

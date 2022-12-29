@@ -16,8 +16,8 @@
 
 
   // Clipboard For NYM
-  function clip_one_func() { // Get the text field
-    var copyText = document.getElementById("clip_one");
+  function clip_nym_func() { // Get the text field
+    var copyText = document.getElementById("clip_nym");
 
     // Select the text field
     copyText.select();
@@ -42,8 +42,8 @@
   }
 
   // Clipboard For Gravity
-  function clip_two_func() { // Get the text field
-    var copyText = document.getElementById("clip_two");
+  function clip_grav_func() { // Get the text field
+    var copyText = document.getElementById("clip_grav");
 
     // Select the text field
     copyText.select();
@@ -60,12 +60,11 @@
       showConfirmButton: false,
       timer: 1500
     })
-
   }
 
    // Clipboard For Comdex
-   function clip_two_three() { // Get the text field
-    var copyText = document.getElementById("clip_three");
+  function clip_comdex_three() { // Get the text field
+    var copyText = document.getElementById("clip_comdex");
 
     // Select the text field
     copyText.select();
@@ -82,13 +81,51 @@
       showConfirmButton: false,
       timer: 1500
     })
+   }
 
+     // Clipboard For Akash
+  function clip_akash_three() { // Get the text field
+    var copyText = document.getElementById("clip_akash");
+
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    // For mobile devices
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'Akash | ID Node Copied',
+      showConfirmButton: false,
+      timer: 1500
+    })
+  }
+
+  function clip_nym_three() { // Get the text field
+    var copyText = document.getElementById("clip_nym");
+
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    // For mobile devices
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'NYM | ID Node Copied',
+      showConfirmButton: false,
+      timer: 1500
+    })
   }
 
 
- 
-
-  //BAR Menu Navigator
+    //BAR Menu Navigator
   document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener('scroll', function () {
       if (window.scrollY > 50) {

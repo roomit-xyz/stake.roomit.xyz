@@ -15,9 +15,9 @@ Interchain DeFi Infrastructure, A DeFi infrastructure layer for the Cosmos ecosy
 
 <p align="center"><b>Our Nodes </b></p>
 <a href="https://www.mintscan.io/comdex/validators/comdexvaloper1psy3gmflujcvcnm7d7palh3ywjxc00dms2x2wd" class="btn btn-success margin-top-4" target="_blank">Explorer</a> 
-<input type="text" id="clip_three" value="comdexvaloper1psy3gmflujcvcnm7d7palh3ywjxc00dms2x2wd" hidden=true> 
+<input type="text" id="clip_comdex" value="comdexvaloper1psy3gmflujcvcnm7d7palh3ywjxc00dms2x2wd" hidden=true> 
 <a href="https://health.roomit.xyz/status/comdex/" class="btn btn-info margin-top-4" target="_blank">Health Check</a> 
 <a href="/pdf/RoomIT_Comdex-Grafana.pdf" class="btn btn-success margin-top-4">Monitoring View</a>
 
-<button onclick="clip_two_three()"  class="btn btn-warning margin-top-4">ID Validator</button>
+<button onclick="clip_comdex_three()"  class="btn btn-warning margin-top-4">ID Validator</button>
 <a href="https://docs.roomit.xyz/mainnet/comdex/how-to-stake-your-token" class="btn btn-success margin-top-4" target="_blank">Stake With Us</a>
