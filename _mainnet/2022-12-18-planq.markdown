@@ -1,0 +1,24 @@
+---
+layout: default
+img: planq.png
+category: Services
+title: PlanQ<br>
+description: |
+---
+<!-- <div class="col-8">
+<span class="badge badge-primary" aria-label="Gravity <=> Osmosis" data-balloon-pos="up">IBC</span> 
+<span class="badge badge-primary" aria-label="Auto Compound" data-balloon-pos="up">Authz</span> 
+</div> -->
+
+The blockchain cosmos on your phone
+Planq network opens up the full blockchain potential of your phone with easy accessibility
+
+
+<p align="center"><b>Our Nodes </b></p>
+<a href="https://explorer.planq.network/validators/plqvaloper1fqnr328nlndkxek2jaz8teec0euyr5yh26q26l" class="btn btn-success margin-top-4" target="_blank">Explorer</a> 
+<input type="text" id="clip_planq" value="plqvaloper1fqnr328nlndkxek2jaz8teec0euyr5yh26q26l" hidden=true> 
+<a href="https://health.roomit.xyz/status/planq/" class="btn btn-info margin-top-4" target="_blank">Health Check</a> 
+<a href="/pdf/RoomIT_Akash-Grafana.pdf" class="btn btn-success margin-top-4">Monitoring View</a>
+
+<button onclick="clip_planq_three()"  class="btn btn-warning margin-top-4">ID Validator</button>
+<!-- <a href="https://wallet.keplr.app/chains/akash?modal=validator&chain=akashnet-2&validator_address=akashvaloper14as4da289px4wcfm863zmkk4g6c3xcm6hcqaad" class="btn btn-success margin-top-4" target="_blank">Stake With Us</a> -->
