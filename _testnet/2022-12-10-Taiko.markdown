@@ -1,24 +1,23 @@
 ---
 layout: default
 ######## CARD FRONT VARIABLE
-img: minima.png
+img: taiko.jpg
 # kind blockchain : tendermint, polkadot, ethereum, near, move.
-kind_blockchain: other
-title: Minima Global 
-modal: minima-testnet
+kind_blockchain: EVM
+title: Taiko  
+modal: taiko-testnet
 # status
 # - finished
 # - ongoing
 # - cancel
 # - preparations / other
-status: finished
-reason:
+status: ongoing
 
 ######## DETAILS USED MODAL
-website: "https://incentive.minima.global/"
-event_name: "Minima Testnet"
-event_link:  ""
-node_id: "<code></code>"
+website: "https://taiko.xyz/"
+event_name: "Validator Taiko"
+event_link:  "https://l2explorer.a1.taiko.xyz/address/0x7025732B69F2B8108D06bA05D2f529766E9358f6"
+node_id: "<code>0x7025732B69F2B8108D06bA05D2f529766E9358f6</code>"
 
 ######### TECHNOLOGY
 os: Ubuntu 22.04
