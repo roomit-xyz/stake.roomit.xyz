@@ -1,7 +1,7 @@
 ---
 layout: default
 ######## CARD FRONT VARIABLE
-img: mars.jpeg
+img: mars.jpg
 # kind blockchain : tendermint, polkadot, ethereum, near, move.
 kind_blockchain: tendermint
 title: Mars Blockchain 
