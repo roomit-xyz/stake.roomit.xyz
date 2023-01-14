@@ -1,0 +1,36 @@
+---
+layout: default
+######## CARD FRONT VARIABLE
+img: mars.jpeg
+# kind blockchain : tendermint, polkadot, ethereum, near, move.
+kind_blockchain: tendermint
+title: Mars Blockchain 
+modal: mars-testnet
+# status
+# - finished
+# - ongoing
+# - cancel
+# - preparations / other
+status: ongoing
+
+######## DETAILS USED MODAL
+website: "https://marsprotocol.io"
+event_name: "Testnet"
+event_link:  "https://testnet-explorer.marsprotocol.io/validators/marsvaloper1fweyc4x5pva537y3v6ajxxrckf68ka50hh8mzw"
+node_id: "<code>marsvaloper1fweyc4x5pva537y3v6ajxxrckf68ka50hh8mzw</code>"
+
+######### TECHNOLOGY
+os: Ubuntu 22.04
+monitoring: Grafana, Prometheus, Telegraf
+monitoring_pdf: RoomIT_Mars-Grafana.pdf
+security: "Audit (Lynis and Greenbonde), Hardening CIS"
+network: "Wireguard (Communication between Machine)"
+
+######## INFRASTRUCTURE
+# if kind_blockchain is tendermint,please assign  tendermint_ of value
+tendermint_monitoring: "https://testnet.roomit.xyz"
+tendermint_rpc: "https://rpc.mars.roomit.xyz"
+tendermint_api: "https://api.mars.roomit.xyz"
+tendermint_grpc: "https://grpc.mars.roomit.xyz"
+tendermint_grpc_web: "https://grpc-web.mars.roomit.xyz"
+---
