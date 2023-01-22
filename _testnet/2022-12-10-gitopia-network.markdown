@@ -28,7 +28,7 @@ network: "Wireguard (Communication between Machine)"
 
 ######## INFRASTRUCTURE
 # if kind_blockchain is tendermint,please assign  tendermint_ of value
-tendermint_monitoring: "https://testnet.roomit.xyz"
+tendermint_monitoring: "https://tendermint.testnet.roomit.xyz"
 tendermint_rpc: "https://rpc.gitopia.roomit.xyz"
 tendermint_api: "https://api.gitopia.roomit.xyz"
 tendermint_grpc: "https://grpc.gitopia.roomit.xyz"
