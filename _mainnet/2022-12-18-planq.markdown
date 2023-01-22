@@ -5,10 +5,10 @@ category: Services
 title: PlanQ<br>
 description: |
 ---
-<!-- <div class="col-8">
-<span class="badge badge-primary" aria-label="Gravity <=> Osmosis" data-balloon-pos="up">IBC</span> 
+<div class="col-8">
+<span class="badge badge-primary" aria-label="Planq <=> Osmosis | Planq <=> Gravity Bridge" data-balloon-pos="up">IBC Gang</span> 
 <span class="badge badge-primary" aria-label="Auto Compound" data-balloon-pos="up">Authz</span> 
-</div> -->
+</div>
 
 The blockchain cosmos on your phone
 Planq network opens up the full blockchain potential of your phone with easy accessibility
