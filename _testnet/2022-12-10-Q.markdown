@@ -11,7 +11,7 @@ modal: q-testnet
 # - ongoing
 # - cancel
 # - preparations / other
-status: preparations
+status: ongoing
 
 ######## DETAILS USED MODAL
 website: "https://q.org/"
