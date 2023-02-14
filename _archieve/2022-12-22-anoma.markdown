@@ -1,34 +1,35 @@
 ---
 layout: default
 ######## CARD FRONT VARIABLE
-img: minima.png
+img: anoma.jpg
 # kind blockchain : tendermint, polkadot, ethereum, near, move.
-kind_blockchain: other
-title: Minima Global 
-modal: minima-testnet
+kind_blockchain: tendermint
+title: Anoma (Namada)
+modal: namada-testnet
 # status
 # - finished
 # - ongoing
 # - cancel
 # - preparations / other
-status: ongoing
-reason: Going To Mainnet
+status: cancel
+reason: ""
 
 ######## DETAILS USED MODAL
-website: "https://incentive.minima.global/"
-event_name: "Minima Testnet"
-event_link:  ""
-node_id: "<code></code>"
+website: "https://namada.world/"
+event_name: "Namada Public Testnet"
+event_link:  "https://namada.world/"
+node_id: "30845E13F823E7403CA4C3FC1115655227F3C040"
 
 ######### TECHNOLOGY
 os: Ubuntu 22.04
 monitoring: Grafana, Prometheus, Telegraf
-monitoring_pdf:
+monitoring_pdf: ""
 security: "Audit (Lynis and Greenbonde), Hardening CIS"
 network: "Wireguard (Communication between Machine)"
 
 ######## INFRASTRUCTURE
 # if kind_blockchain is tendermint,please assign  tendermint_ of value
+testnet_monitor: 
 tendermint_rpc: 
 tendermint_api: 
 tendermint_grpc: 

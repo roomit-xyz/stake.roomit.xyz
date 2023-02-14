@@ -1,0 +1,36 @@
+---
+layout: default
+######## CARD FRONT VARIABLE
+img: minima.png
+# kind blockchain : tendermint, polkadot, ethereum, near, move.
+kind_blockchain: other
+title: Minima Global 
+modal: minima-testnet
+# status
+# - finished
+# - ongoing
+# - cancel
+# - preparations / other
+status: finished
+reason: Mining Completed
+
+######## DETAILS USED MODAL
+website: "https://incentive.minima.global/"
+event_name: "Minima Testnet"
+event_link:  ""
+node_id: "<code></code>"
+
+######### TECHNOLOGY
+os: Ubuntu 22.04
+monitoring: Grafana, Prometheus, Telegraf
+monitoring_pdf:
+security: "Audit (Lynis and Greenbonde), Hardening CIS"
+network: "Wireguard (Communication between Machine)"
+
+######## INFRASTRUCTURE
+# if kind_blockchain is tendermint,please assign  tendermint_ of value
+tendermint_rpc: 
+tendermint_api: 
+tendermint_grpc: 
+tendermint_grpc_web:
+---

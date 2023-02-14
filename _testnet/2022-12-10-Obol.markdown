@@ -1,11 +1,11 @@
 ---
 layout: default
 ######## CARD FRONT VARIABLE
-img: taiko.jpg
+img: obol.png
 # kind blockchain : tendermint, polkadot, ethereum, near, move.
-kind_blockchain: EVM
-title: Taiko  
-modal: taiko-testnet
+kind_blockchain: ethereum
+title: Obol Blockchain 
+modal: obol-testnet
 # status
 # - finished
 # - ongoing
@@ -14,10 +14,10 @@ modal: taiko-testnet
 status: ongoing
 
 ######## DETAILS USED MODAL
-website: "https://taiko.xyz/"
-event_name: "Validator Taiko"
-event_link:  "https://l2explorer.a1.taiko.xyz/address/0x7025732B69F2B8108D06bA05D2f529766E9358f6"
-node_id: "<code>0x7025732B69F2B8108D06bA05D2f529766E9358f6</code>"
+website: "https://obol.tech/"
+event_name: "Validator Incentivized Testnet"
+event_link:  "https://goerli.beaconcha.in/validator/0xb962da348d556dcb8200824e89d7e7762edd6f9360bfe4c079f20c589ae53e29bd210562d72882abe48d116335dd4449#charts"
+node_id: "<code>0xb962da348d556dcb8200824e89d7e7762edd6f9360bfe4c079f20c589ae53e29bd210562d72882abe48d116335dd4449</code>"
 
 ######### TECHNOLOGY
 os: Ubuntu 22.04

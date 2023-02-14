@@ -1,35 +1,34 @@
 ---
 layout: default
 ######## CARD FRONT VARIABLE
-img: anoma.jpg
+img: taiko.jpg
 # kind blockchain : tendermint, polkadot, ethereum, near, move.
-kind_blockchain: tendermint
-title: Anoma (Namada)
-modal: namada-testnet
+kind_blockchain: EVM
+title: Taiko  
+modal: taiko-testnet
 # status
 # - finished
 # - ongoing
 # - cancel
 # - preparations / other
-status: ongoing
-reason: ""
+status: finished
+reason: Validation Completed
 
 ######## DETAILS USED MODAL
-website: "https://namada.world/"
-event_name: "Namada Public Testnet"
-event_link:  "https://namada.world/"
-node_id: "30845E13F823E7403CA4C3FC1115655227F3C040"
+website: "https://taiko.xyz/"
+event_name: "Validator Taiko"
+event_link:  "https://l2explorer.a1.taiko.xyz/address/0x7025732B69F2B8108D06bA05D2f529766E9358f6"
+node_id: "<code>0x7025732B69F2B8108D06bA05D2f529766E9358f6</code>"
 
 ######### TECHNOLOGY
 os: Ubuntu 22.04
 monitoring: Grafana, Prometheus, Telegraf
-monitoring_pdf: ""
+monitoring_pdf:
 security: "Audit (Lynis and Greenbonde), Hardening CIS"
 network: "Wireguard (Communication between Machine)"
 
 ######## INFRASTRUCTURE
 # if kind_blockchain is tendermint,please assign  tendermint_ of value
-testnet_monitor: 
 tendermint_rpc: 
 tendermint_api: 
 tendermint_grpc: 

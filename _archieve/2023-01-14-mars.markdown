@@ -11,7 +11,7 @@ modal: mars-testnet
 # - ongoing
 # - cancel
 # - preparations / other
-status: ongoing
+status: cancel
 
 ######## DETAILS USED MODAL
 website: "https://marsprotocol.io"
