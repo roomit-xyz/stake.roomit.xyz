@@ -12,7 +12,7 @@ modal: namada-testnet
 # - cancel
 # - preparations / other
 status: cancel
-reason: ""
+reason: "Not choosen as genesis"
 
 ######## DETAILS USED MODAL
 website: "https://namada.world/"
