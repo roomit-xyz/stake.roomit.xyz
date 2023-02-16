@@ -12,7 +12,7 @@ modal: celestia-testnet
 # - cancel
 # - preparations / other
 status: cancel
-reason: Token is not enough
+reason: Not Choosen 
 
 ######## DETAILS USED MODAL
 website: "https://celestia.org/"
