@@ -5,7 +5,6 @@
 </div>
 
 <section class="container d-flex justify-content-center">
-   <!-- Album 1 -->
   <div class="row">
     {% for item in site.archieve %}
     <div class="col-sm-2 text-right mt-2 d-flex justify-content-center">
@@ -34,23 +33,6 @@
               </span>
           </a>
        {% endif %}
-        <!-- <p class="card-text">
-            {% if item.status == "finished" %}
-            <span class="badge badge-primary">{{item.status}}</span>
-            {% elsif item.status == "ongoing" %}
-            <span class="badge badge-warning">{{item.status}}</span>
-            {% elsif item.status == "cancel" %}
-            <span class="badge badge-danger">{{item.status}}</span>
-            <div>
-            <code>
-              {{%item.reason%}}
-            </code>
-            </div>
-            {% else %}
-            <span class="badge badge-info">{{item.status}}</span>
-            {% endif %}
-        </p> -->
- 
     </div>
     {% endfor %}
   </div>
