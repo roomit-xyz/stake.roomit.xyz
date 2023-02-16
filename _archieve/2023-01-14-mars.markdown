@@ -12,6 +12,7 @@ modal: mars-testnet
 # - cancel
 # - preparations / other
 status: cancel
+reason: There is no delegration program
 
 ######## DETAILS USED MODAL
 website: "https://marsprotocol.io"
