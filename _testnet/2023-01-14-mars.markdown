@@ -11,8 +11,8 @@ modal: mars-testnet
 # - ongoing
 # - cancel
 # - preparations / other
-status: cancel
-reason: There is no delegration program
+status: ongoing
+reason: 
 
 ######## DETAILS USED MODAL
 website: "https://marsprotocol.io"
