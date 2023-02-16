@@ -11,7 +11,8 @@ modal: obol-testnet
 # - ongoing
 # - cancel
 # - preparations / other
-status: ongoing
+status: cancel
+reason: Not have partner
 
 ######## DETAILS USED MODAL
 website: "https://obol.tech/"
