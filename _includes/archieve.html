@@ -8,11 +8,11 @@
    <!-- Album 1 -->
   <div class="row">
     {% for item in site.archieve %}
-    <div class="col-sm-1 text-right mt-4 d-flex justify-content-center">
+    <div class="col-sm-3 text-right mt-4 d-flex justify-content-center">
         <a href="" class="btn btn-success" data-toggle="modal" data-target="#{{item.modal}}">
-              <img class="mx-auto d-block rounded-circle" src="img/testnet/{{item.img}}" alt="{{item.title}}"  width="100px" height="100px">
+              <img class="mx-auto d-block rounded-circle" src="img/testnet/{{item.img}}" alt="{{item.title}}"  width="70px" height="70px">
         </a> 
-        <p class="card-text">
+        <!-- <p class="card-text">
             {% if item.status == "finished" %}
             <span class="badge badge-primary">{{item.status}}</span>
             {% elsif item.status == "ongoing" %}
@@ -27,7 +27,7 @@
             {% else %}
             <span class="badge badge-info">{{item.status}}</span>
             {% endif %}
-        </p>
+        </p> -->
  
     </div>
     {% endfor %}
