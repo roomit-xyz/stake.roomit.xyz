@@ -8,9 +8,11 @@
    <!-- Album 1 -->
   <div class="row">
     {% for item in site.archieve %}
-    <div class="col-sm-3 text-right mt-4 d-flex justify-content-center">
+    <div class="col-sm-3 text-right mt-6 d-flex justify-content-center">
         <a href="" class="nav-link active" data-toggle="modal" data-target="#{{item.modal}}">
+              <span class="badge badge-primary" aria-label="{{item.title}}" data-balloon-pos="up"> 
               <img class="mx-auto d-block rounded-circle " src="img/testnet/{{item.img}}" alt="{{item.title}}"  width="70px" height="70px">
+              </span>
         </a> 
         <!-- <p class="card-text">
             {% if item.status == "finished" %}
