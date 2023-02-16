@@ -9,11 +9,37 @@
   <div class="row">
     {% for item in site.archieve %}
     <div class="col-sm-2 text-right mt-3 d-flex justify-content-center">
-        <a href="" class="nav-link active" data-toggle="modal" data-target="#{{item.modal}}">
+        <!-- <a href="" class="nav-link active" data-toggle="modal" data-target="#{{item.modal}}">
               <span class="badge badge-success" aria-label="{{item.title}}" data-balloon-pos="up"> 
               <img class="mx-auto d-block rounded-circle " src="img/testnet/{{item.img}}" alt="{{item.title}}"  width="70px" height="70px">
               </span>
-        </a> 
+        </a>  -->
+
+        {% if item.status == "finished" %}
+           <a href="" class="nav-link active" data-toggle="modal" data-target="#{{item.modal}}">
+              <span class="badge badge-primary" aria-label="{{item.title}}" data-balloon-pos="up"> 
+              <img class="mx-auto d-block rounded-circle " src="img/testnet/{{item.img}}" alt="{{item.title}}"  width="70px" height="70px">
+              </span>
+            </a> 
+          {% elsif item.status == "ongoing" %}
+          <a href="" class="nav-link active" data-toggle="modal" data-target="#{{item.modal}}">
+              <span class="badge badge-warning" aria-label="{{item.title}}" data-balloon-pos="up"> 
+              <img class="mx-auto d-block rounded-circle " src="img/testnet/{{item.img}}" alt="{{item.title}}"  width="70px" height="70px">
+              </span>
+          </a>
+          {% elsif item.status == "cancel" %}
+          <a href="" class="nav-link active" data-toggle="modal" data-target="#{{item.modal}}">
+              <span class="badge badge-danger" aria-label="{{item.title}}" data-balloon-pos="up"> 
+              <img class="mx-auto d-block rounded-circle " src="img/testnet/{{item.img}}" alt="{{item.title}}"  width="70px" height="70px">
+              </span>
+          </a>
+          {% else %}
+          <a href="" class="nav-link active" data-toggle="modal" data-target="#{{item.modal}}">
+              <span class="badge badge-info" aria-label="{{item.title}}" data-balloon-pos="up"> 
+              <img class="mx-auto d-block rounded-circle " src="img/testnet/{{item.img}}" alt="{{item.title}}"  width="70px" height="70px">
+              </span>
+          </a>
+       {% endif %}
         <!-- <p class="card-text">
             {% if item.status == "finished" %}
             <span class="badge badge-primary">{{item.status}}</span>
