@@ -16,7 +16,7 @@ status: ongoing
 ######## DETAILS USED MODAL
 website: "https://blockxnet.com"
 event_name: "Testnet"
-event_link:  "https://bigdipper.blockxnet.com/validators/blockxvaloper16am9xxy7q4yw5l9zx76zqm2p3ne8e6zns8xq3t"
+event_link:  "https://explorer.nodestake.top/blockx-testnet/staking/blockxvaloper16am9xxy7q4yw5l9zx76zqm2p3ne8e6zns8xq3t"
 node_id: "<code>blockxvaloper16am9xxy7q4yw5l9zx76zqm2p3ne8e6zns8xq3t</code>"
 
 ######### TECHNOLOGY
