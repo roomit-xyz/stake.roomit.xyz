@@ -9,15 +9,10 @@ description: |
 <span class="badge badge-primary" aria-label="8ball <=> Osmosis | 8ball <=> Gravity Bridge" data-balloon-pos="up">IBC Gang</span> 
 <span class="badge badge-primary" aria-label="Auto Compound" data-balloon-pos="up">Authz</span> 
 </div> -->
+<span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>8ball <=> Osmosis <br> 8ball <=> Gravity <br> 8balll <=> Planq</b>">IBC Gang</span>
+<span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>enabled</b>">Authz</span>
 
-<div class="btn btn-primary tooltip">
-  Hover Me to Preview
-    <div class="top">
-        <h3>Lorem Ipsum</h3>
-        <p>Dolor sit amet, consectetur adipiscing elit.</p>
-        <i></i>
-    </div>
-</div>
+
 
 8ball is cross-chain. It speaks to Ethereum, Tron, Bitcoin, Zclassic now, and hopefully hundreds of more blockchains in the future.
 8ball was designed to minimize transaction fees, because we all hate high gas fees.

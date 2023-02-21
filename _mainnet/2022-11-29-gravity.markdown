@@ -5,11 +5,16 @@ category: Services
 title: Gravity Bridge<br>
 description: |
 ---
-<div class="col-8">
+<!-- <div class="col-8">
 <span class="badge badge-primary" aria-label="Gravity <=> Osmosis | Gravity <=> Planq" data-balloon-pos="up">IBC Gang</span> 
 <span class="badge badge-primary" aria-label="Gravity <=> Ethereum" data-balloon-pos="up">Relayer Ethereum</span> 
 <span class="badge badge-primary" aria-label="Auto Compound" data-balloon-pos="up">Authz</span> 
-</div>
+</div> -->
+
+<span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>8ball <=> Osmosis <br> 8ball <=> Gravity <br> 8balll <=> Planq</b>">IBC Gang</span>
+<span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>enabled</b>">Authz</span>
+
+
 
 Gravity Bridge chain will act as neutral ethereum to cosmos bridge. Through IBC(Interblockchain communication), many different cosmos based projects can connect and use the bridge to access ERC20 assets, like dai or usdc, without having to operate the gravity orchestrator on their own chain.
 
