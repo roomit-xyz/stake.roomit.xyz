@@ -5,12 +5,13 @@ category: Services
 title: 8Ball<br>
 description: |
 ---
-<div class="col-8">
+<!-- <div class="col-8">
 <span class="badge badge-primary" aria-label="8ball <=> Osmosis | 8ball <=> Gravity Bridge" data-balloon-pos="up">IBC Gang</span> 
 <span class="badge badge-primary" aria-label="Auto Compound" data-balloon-pos="up">Authz</span> 
-</div>
+</div> -->
 
-<div class="btn btn-primary tooltip">Hover Me to Preview
+<div class="btn btn-primary tooltip">
+  Hover Me to Preview
     <div class="top">
         <h3>Lorem Ipsum</h3>
         <p>Dolor sit amet, consectetur adipiscing elit.</p>
