@@ -6,12 +6,12 @@ img: massa.jpg
 kind_blockchain: other
 title: Massa Network 
 modal: massa-testnet
-# status
+# statusgit 
 # - finished
 # - ongoing
 # - cancel
 # - preparations / other
-status: ongoing
+status: finished
 
 ######## DETAILS USED MODAL
 website: "https://massa.net/"
