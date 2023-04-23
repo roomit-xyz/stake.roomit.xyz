@@ -11,8 +11,8 @@ modal: gitopia-testnet
 # - ongoing
 # - cancel
 # - preparations / other
-status: cancel
-reason: Developing very slow
+status: ongoing
+reason: 
 
 ######## DETAILS USED MODAL
 website: "https://gitopia.com"
