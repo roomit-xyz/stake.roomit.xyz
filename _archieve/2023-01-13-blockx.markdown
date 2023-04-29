@@ -11,7 +11,8 @@ modal: blockx-testnet
 # - ongoing
 # - cancel
 # - preparations / other
-status: ongoing
+status: cancel
+reason: Need fund for buy token early
 
 ######## DETAILS USED MODAL
 website: "https://blockxnet.com"
