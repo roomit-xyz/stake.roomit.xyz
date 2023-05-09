@@ -11,8 +11,8 @@ modal: mars-testnet
 # - ongoing
 # - cancel
 # - preparations / other
-status: ongoing
-reason: finished
+status: cancel
+reason: Need Buy Coin for Validation
 
 ######## DETAILS USED MODAL
 website: "https://marsprotocol.io"
