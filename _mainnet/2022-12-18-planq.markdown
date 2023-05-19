@@ -25,4 +25,4 @@ Planq network opens up the full blockchain potential of your phone with easy acc
 <a href="/pdf/RoomIT_Akash-Grafana.pdf" class="btn btn-success margin-top-4">Monitoring View</a>
 
 <button onclick="clip_planq_three()"  class="btn btn-warning margin-top-4">ID Validator</button>
-<!-- <a href="https://wallet.keplr.app/chains/akash?modal=validator&chain=akashnet-2&validator_address=akashvaloper14as4da289px4wcfm863zmkk4g6c3xcm6hcqaad" class="btn btn-success margin-top-4" target="_blank">Stake With Us</a> -->
+<a href="https://explorer.tendermint.roomit.xyz/planq/staking/plqvaloper1fqnr328nlndkxek2jaz8teec0euyr5yh26q26l" class="btn btn-success margin-top-4" target="_blank">Stake With Us</a>
