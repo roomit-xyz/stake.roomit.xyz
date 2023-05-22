@@ -35,7 +35,7 @@ Planq network opens up the full blockchain potential of your phone with easy acc
        <a href="/pdf/RoomIT_Akash-Grafana.pd" class="btn btn-success margin-top">Monitoring View</a> 
    </td>
    <td>
-      <a href="https://explorer.tendermint.roomit.xyz/planq/staking/plqvaloper1fqnr328nlndkxek2jaz8teec0euyr5yh26q26l" class="btn btn-success margin-top" target="_blank">Lets Stake</a>
+      <a href="https://explorer.tendermint.roomit.xyz/planq/staking/plqvaloper1fqnr328nlndkxek2jaz8teec0euyr5yh26q26l" class="btn btn-danger margin-top" target="_blank">Lets Stake</a>
    </td>
 </tr>
 </table>

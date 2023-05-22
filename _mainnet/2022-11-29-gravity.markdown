@@ -34,7 +34,7 @@ Gravity Bridge chain will act as neutral ethereum to cosmos bridge. Through IBC(
        <a href="/pdf/RoomIT_GravityBridge-Grafana.pdf" class="btn btn-success margin-top">Monitoring View</a> 
    </td>
    <td>
-      <a href="https://explorer.tendermint.roomit.xyz/gravity-bridge/staking/gravityvaloper1ssduj8c0cc8kquljvw3ygq9hduvcysnf590lmz" class="btn btn-success margin-top" target="_blank">Lets Stake</a>
+      <a href="https://explorer.tendermint.roomit.xyz/gravity-bridge/staking/gravityvaloper1ssduj8c0cc8kquljvw3ygq9hduvcysnf590lmz" class="btn btn-danger margin-top" target="_blank">Lets Stake</a>
    </td>
 </tr>
 </table>

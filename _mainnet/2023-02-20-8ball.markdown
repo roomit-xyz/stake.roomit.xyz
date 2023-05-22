@@ -33,7 +33,7 @@ description: |
        <a href="/pdf/RoomIT_Akash-Grafana.pdf" class="btn btn-success margin-top">Monitoring View</a> 
    </td>
    <td>
-      <a href="https://explorer.tendermint.roomit.xyz/8ball/staking/8ballvaloper1999ptelp4fw8u9pgy5w2z2wpsy96xy3k2cg0uu" class="btn btn-success margin-top" target="_blank">Lets Stake</a>
+      <a href="https://explorer.tendermint.roomit.xyz/8ball/staking/8ballvaloper1999ptelp4fw8u9pgy5w2z2wpsy96xy3k2cg0uu" class="btn btn-danger margin-top" target="_blank">Lets Stake</a>
    </td>
 </tr>
 </table>
