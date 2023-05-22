@@ -17,6 +17,7 @@ description: |
 8ball is cross-chain. It speaks to Ethereum, Tron, Bitcoin, Zclassic now, and hopefully hundreds of more blockchains in the future.
 8ball was designed to minimize transaction fees, because we all hate high gas fees.
 
+<p align="center"><b>Our Nodes </b></p>
 <table>
 <tr>
    <td>
