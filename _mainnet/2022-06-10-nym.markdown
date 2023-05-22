@@ -23,7 +23,7 @@ Found Our Node Mixnode
    <td>
        <a href="https://mixnet.explorers.guru/mixnode/AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo" class="btn btn-success margin-top" target="_blank">Explorer NYM</a>
    </td>
-   <td>
+   <td colspan=2>
        <a href="/pdf/RoomIT_NYM-Grafana.pdf" class="btn btn-success margin-top">Monitoring View</a> 
    </td>
 </tr>
