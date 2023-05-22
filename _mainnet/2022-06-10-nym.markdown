@@ -21,7 +21,7 @@ Found Our Node Mixnode
 <table>
 <tr>
    <td>
-       <a href="https://mixnet.explorers.guru/mixnode/AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo" class="btn btn-success margin-top" target="_blank">Explorer 8Ball</a>
+       <a href="https://mixnet.explorers.guru/mixnode/AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo" class="btn btn-success margin-top" target="_blank">Explorer NYM</a>
    </td>
    <td> 
       <button onclick="clip_nym_three()"  class="btn btn-warning margin-top">ID Validator</button>
