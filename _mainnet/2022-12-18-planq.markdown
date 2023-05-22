@@ -19,10 +19,25 @@ Planq network opens up the full blockchain potential of your phone with easy acc
 
 
 <p align="center"><b>Our Nodes </b></p>
-<a href="https://explorer.planq.network/validators/plqvaloper1fqnr328nlndkxek2jaz8teec0euyr5yh26q26l" class="btn btn-success margin-top-4" target="_blank">Explorer</a> 
-<input type="text" id="clip_planq" value="plqvaloper1fqnr328nlndkxek2jaz8teec0euyr5yh26q26l" hidden=true> 
-<a href="https://health.roomit.xyz/status/planq/" class="btn btn-info margin-top-4" target="_blank">Health Check</a> 
-<a href="/pdf/RoomIT_Akash-Grafana.pdf" class="btn btn-success margin-top-4">Monitoring View</a>
+<table>
+<tr>
+   <td>
+       <a href="https://explorer.planq.network/validators/plqvaloper1fqnr328nlndkxek2jaz8teec0euyr5yh26q26l" class="btn btn-success margin-top" target="_blank">Explorer PlanQ</a>
+   </td>
+   <td> 
+      <button onclick="clip_planq_three()"  class="btn btn-warning margin-top">ID Validator</button>
+      <input type="text" id="clip_planq" value="plqvaloper1fqnr328nlndkxek2jaz8teec0euyr5yh26q26l" hidden=true> 
+   </td>
+   <td>
+       <a href="https://health.roomit.xyz/status/planq/" class="btn btn-info margin-top" target="_blank">Health Check</a>
+   </td> 
+   <td>
+       <a href="/pdf/RoomIT_Akash-Grafana.pd" class="btn btn-success margin-top">Monitoring View</a> 
+   </td>
+   <td>
+      <a href="https://explorer.tendermint.roomit.xyz/planq/staking/plqvaloper1fqnr328nlndkxek2jaz8teec0euyr5yh26q26l" class="btn btn-success margin-top" target="_blank">Lets Stake</a>
+   </td>
+</tr>
+</table>
 
-<button onclick="clip_planq_three()"  class="btn btn-warning margin-top-4">ID Validator</button>
-<a href="https://explorer.tendermint.roomit.xyz/planq/staking/plqvaloper1fqnr328nlndkxek2jaz8teec0euyr5yh26q26l" class="btn btn-success margin-top-4" target="_blank">Stake With Us</a>
+

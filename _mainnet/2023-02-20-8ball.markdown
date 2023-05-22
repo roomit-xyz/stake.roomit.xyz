@@ -17,13 +17,24 @@ description: |
 8ball is cross-chain. It speaks to Ethereum, Tron, Bitcoin, Zclassic now, and hopefully hundreds of more blockchains in the future.
 8ball was designed to minimize transaction fees, because we all hate high gas fees.
 
+<table>
+<tr>
+   <td>
+       <a href="https://explorer.8ball.info/8ball/staking/8ballvaloper1999ptelp4fw8u9pgy5w2z2wpsy96xy3k2cg0uu" class="btn btn-success margin-top" target="_blank">Explorer 8Ball</a>
+   </td>
+   <td> 
+      <button onclick="clip_8ball_three()"  class="btn btn-warning margin-top">ID Validator</button>
+      <input type="text" id="clip_8ball" value="8ballvaloper1999ptelp4fw8u9pgy5w2z2wpsy96xy3k2cg0uu" hidden=true> 
+   </td>
+   <td>
+       <a href="https://health.roomit.xyz/status/8ball/" class="btn btn-info margin-top" target="_blank">Health Check</a>
+   </td> 
+   <td>
+       <a href="/pdf/RoomIT_Akash-Grafana.pdf" class="btn btn-success margin-top">Monitoring View</a> 
+   </td>
+   <td>
+      <a href="https://explorer.tendermint.roomit.xyz/8ball/staking/8ballvaloper1999ptelp4fw8u9pgy5w2z2wpsy96xy3k2cg0uu" class="btn btn-success margin-top" target="_blank">Lets Stake</a>
+   </td>
+</tr>
+</table>
 
-<p align="center"><b>Our Nodes </b></p>
-<a href="https://explorer.8ball.info/8ball/staking/8ballvaloper1999ptelp4fw8u9pgy5w2z2wpsy96xy3k2cg0uu" class="btn btn-success margin-top-4" target="_blank">Explorer</a> 
-<button onclick="clip_8ball_three()"  class="btn btn-warning margin-top-4">ID Validator</button>
-<input type="text" id="clip_8ball" value="8ballvaloper1999ptelp4fw8u9pgy5w2z2wpsy96xy3k2cg0uu" hidden=true> 
-<!-- <a href="https://health.roomit.xyz/status/planq/" class="btn btn-info margin-top-4" target="_blank">Health Check</a> 
-<a href="/pdf/RoomIT_Akash-Grafana.pdf" class="btn btn-success margin-top-4">Monitoring View</a> -->
-
-<!-- <button onclick="clip_8ball_three()"  class="btn btn-warning margin-top-4">ID Validator</button> -->
-<a href="https://explorer.tendermint.roomit.xyz/8ball/staking/8ballvaloper1999ptelp4fw8u9pgy5w2z2wpsy96xy3k2cg0uu" class="btn btn-success margin-top-4" target="_blank">Stake With Us</a>
