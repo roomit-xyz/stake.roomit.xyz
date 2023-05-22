@@ -22,8 +22,8 @@ Found Our Node Mixnode
 <tr>
    <td colspan=2 style="text-align: center">
        <p align="center">
-       <a href="https://mixnet.explorers.guru/mixnode/AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo" class="btn btn-success margin-top" target="_blank">Explorer NYM</a>
-       <a href="/pdf/RoomIT_NYM-Grafana.pdf" class="btn btn-success margin-top">Monitoring View</a> 
+       <a href="https://mixnet.explorers.guru/mixnode/AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo" class="btn btn-success margin-top d-flex justify-content-center" target="_blank">Explorer NYM</a>
+       <a href="/pdf/RoomIT_NYM-Grafana.pdf" class="btn btn-success margin-top d-flex justify-content-center">Monitoring View</a> 
        </p>
    </td>
 </tr>
