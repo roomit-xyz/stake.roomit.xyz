@@ -18,15 +18,15 @@ description: |
 8ball was designed to minimize transaction fees, because we all hate high gas fees.
 
 <p align="center"><b>Our Nodes </b></p>
-<table>
+<table class="table">
 <tr>
-   <td>
+   <td colspan=3 style="text-align: center" class="justify-content-center">
        <a href="https://explorer.8ball.info/8ball/staking/8ballvaloper1999ptelp4fw8u9pgy5w2z2wpsy96xy3k2cg0uu" class="btn btn-success margin-top" target="_blank">Explorer 8Ball</a>
-   </td>
-   <td> 
       <button onclick="clip_8ball_three()"  class="btn btn-warning margin-top">ID Validator</button>
       <input type="text" id="clip_8ball" value="8ballvaloper1999ptelp4fw8u9pgy5w2z2wpsy96xy3k2cg0uu" hidden=true> 
    </td>
+</tr>
+<tr>
    <td>
        <a href="https://health.roomit.xyz/status/8ball/" class="btn btn-info margin-top" target="_blank">Health Check</a>
    </td> 

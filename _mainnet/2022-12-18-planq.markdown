@@ -19,15 +19,15 @@ Planq network opens up the full blockchain potential of your phone with easy acc
 
 
 <p align="center"><b>Our Nodes </b></p>
-<table>
+<table class="table">
 <tr>
-   <td>
+   <td colspan=3 style="text-align: center" class="justify-content-center">
        <a href="https://explorer.planq.network/validators/plqvaloper1fqnr328nlndkxek2jaz8teec0euyr5yh26q26l" class="btn btn-success margin-top" target="_blank">Explorer PlanQ</a>
-   </td>
-   <td> 
       <button onclick="clip_planq_three()"  class="btn btn-warning margin-top">ID Validator</button>
       <input type="text" id="clip_planq" value="plqvaloper1fqnr328nlndkxek2jaz8teec0euyr5yh26q26l" hidden=true> 
    </td>
+</tr>
+<tr>
    <td>
        <a href="https://health.roomit.xyz/status/planq/" class="btn btn-info margin-top" target="_blank">Health Check</a>
    </td> 

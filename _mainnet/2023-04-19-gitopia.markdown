@@ -14,15 +14,15 @@ description: |
 Gitopia is the next-generation Code Collaboration Platform fuelled by a decentralized network and interactive token economy. It is designed to optimize the open-source software development process through collaboration, transparency, and incentivization.
 
 <p align="center"><b>Our Nodes </b></p>
-<table>
+<table class="table">
 <tr>
-   <td>
+   <td colspan=3 style="text-align: center" class="justify-content-center">
        <a href="https://explorer.tendermint.roomit.xyz/gitopia/staking/gitopiavaloper1pv8fkl4t7wk9mwptkwf8pemy9rt8qpkydr6k3p" class="btn btn-success margin-top" target="_blank">Explorer Gitopia</a>
-   </td>
-   <td> 
       <button onclick="clip_gitopia_three()"  class="btn btn-warning margin-top">ID Validator</button>
       <input type="text" id="clip_gitopia" value="gitopiavaloper1pv8fkl4t7wk9mwptkwf8pemy9rt8qpkydr6k3p" hidden=true> 
    </td>
+</tr>
+<tr>
    <td>
        <a href="https://health.roomit.xyz/status/gitopia/" class="btn btn-info margin-top" target="_blank">Health Check</a>
    </td> 

@@ -18,15 +18,17 @@ description: |
 
 Gravity Bridge chain will act as neutral ethereum to cosmos bridge. Through IBC(Interblockchain communication), many different cosmos based projects can connect and use the bridge to access ERC20 assets, like dai or usdc, without having to operate the gravity orchestrator on their own chain.
 
-<table>
+
+<p align="center"><b>Our Nodes </b></p>
+<table class="table">
 <tr>
-   <td>
+   <td colspan=3 style="text-align: center" class="justify-content-center">
        <a href="https://gravity.explorers.guru/validator/gravityvaloper1ssduj8c0cc8kquljvw3ygq9hduvcysnf590lmz" class="btn btn-success margin-top" target="_blank">Explorer Grav</a>
-   </td>
-   <td> 
       <button onclick="clip_grav_three()"  class="btn btn-warning margin-top">ID Validator</button>
       <input type="text" id="clip_grab" value="gravityvaloper1ssduj8c0cc8kquljvw3ygq9hduvcysnf590lmz" hidden=true> 
    </td>
+</tr>
+<tr>
    <td>
        <a href="https://health.roomit.xyz/status/gravity-bridge//" class="btn btn-info margin-top" target="_blank">Health Check</a>
    </td> 
