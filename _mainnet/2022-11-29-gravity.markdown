@@ -2,7 +2,7 @@
 layout: default
 img: gravity.png
 category: Services
-title: Gravity Bridge<br>
+title: Gravity Bridge
 description: |
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 img: 8ball.png
 category: Services
-title: 8Ball<br>
+title: 8Ball
 description: |
 ---
 

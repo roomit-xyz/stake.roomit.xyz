@@ -2,7 +2,7 @@
 layout: default
 img: gitopia.png
 category: Services
-title: Gitopia<br>
+title: Gitopia
 description: |
 ---
 

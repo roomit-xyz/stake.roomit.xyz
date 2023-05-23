@@ -2,7 +2,7 @@
 layout: default
 img: planq.png
 category: Services
-title: PlanQ<br>
+title: PlanQ
 description: |
 ---
 
