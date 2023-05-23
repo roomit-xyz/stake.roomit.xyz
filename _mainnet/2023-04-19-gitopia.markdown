@@ -30,7 +30,7 @@ Gitopia is the next-generation Code Collaboration Platform fuelled by a decentra
    <td>
        <button onclick="clip_gitopia_three()"  class="btn btn-warning margin-top">ID Validator</button>
        <input type="text" id="clip_gitopia" value="gitopiavaloper1pv8fkl4t7wk9mwptkwf8pemy9rt8qpkydr6k3p" hidden=true> 
-   </td>
+</td>
    <td>
       <a href="https://explorer.tendermint.roomit.xyz/gitopia/staking/gitopiavaloper1pv8fkl4t7wk9mwptkwf8pemy9rt8qpkydr6k3p" class="btn btn-danger margin-top" target="_blank">Lets Stake</a>
    </td>
