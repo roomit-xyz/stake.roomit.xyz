@@ -20,7 +20,6 @@ Gitopia is the next-generation Code Collaboration Platform fuelled by a decentra
        <a href="https://explorer.tendermint.roomit.xyz/gitopia/staking/gitopiavaloper1pv8fkl4t7wk9mwptkwf8pemy9rt8qpkydr6k3p" class="btn btn-success margin-top" target="_blank">Explorer Gitopia</a>
        &nbsp;
         <a href="/pdf/RoomIT_Akash-Grafana.pdf" class="btn btn-success margin-top">Monitoring View</a> 
-
    </td>
 </tr>
 <tr>
