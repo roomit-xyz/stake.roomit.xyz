@@ -18,8 +18,9 @@ Gitopia is the next-generation Code Collaboration Platform fuelled by a decentra
 <tr>
    <td colspan=3 style="text-align: center" class="justify-content-center">
        <a href="https://explorer.tendermint.roomit.xyz/gitopia/staking/gitopiavaloper1pv8fkl4t7wk9mwptkwf8pemy9rt8qpkydr6k3p" class="btn btn-success margin-top" target="_blank">Explorer Gitopia</a>
-      <button onclick="clip_gitopia_three()"  class="btn btn-warning margin-top">ID Validator</button>
-      <input type="text" id="clip_gitopia" value="gitopiavaloper1pv8fkl4t7wk9mwptkwf8pemy9rt8qpkydr6k3p" hidden=true> 
+       &nbsp;
+        <a href="/pdf/RoomIT_Akash-Grafana.pdf" class="btn btn-success margin-top">Monitoring View</a> 
+
    </td>
 </tr>
 <tr>
@@ -27,7 +28,8 @@ Gitopia is the next-generation Code Collaboration Platform fuelled by a decentra
        <a href="https://health.roomit.xyz/status/gitopia/" class="btn btn-info margin-top" target="_blank">Health Check</a>
    </td> 
    <td>
-       <a href="/pdf/RoomIT_Akash-Grafana.pdf" class="btn btn-success margin-top">Monitoring View</a> 
+       <button onclick="clip_gitopia_three()"  class="btn btn-warning margin-top">ID Validator</button>
+       <input type="text" id="clip_gitopia" value="gitopiavaloper1pv8fkl4t7wk9mwptkwf8pemy9rt8qpkydr6k3p" hidden=true> 
    </td>
    <td>
       <a href="https://explorer.tendermint.roomit.xyz/gitopia/staking/gitopiavaloper1pv8fkl4t7wk9mwptkwf8pemy9rt8qpkydr6k3p" class="btn btn-danger margin-top" target="_blank">Lets Stake</a>
