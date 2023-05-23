@@ -18,12 +18,12 @@ Found Our Node Mixnode
 <center>
 <b> RoomIT Mixnode </b> 
 <br>
-<table class="table table-striped">
+<table class="table">
 <tr>
    <td colspan=3 style="text-align: center" class="justify-content-center">
        <center>
-       <a href="https://mixnet.explorers.guru/mixnode/AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo" class="btn btn-success margin-top" target="_blank">Explorer NYM</a>
-       <a href="/pdf/RoomIT_NYM-Grafana.pdf" class="btn btn-success margin-top">Monitoring View</a> 
+       <a href="https://mixnet.explorers.guru/mixnode/AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo" class="btn btn-success margin-right-2" target="_blank">Explorer NYM</a>
+       <a href="/pdf/RoomIT_NYM-Grafana.pdf" class="btn btn-success margin-left-2">Monitoring View</a> 
        </center>
    </td>
 </tr>
