@@ -27,7 +27,7 @@ Gravity Bridge chain will act as neutral ethereum to cosmos bridge. Through IBC(
 </tr>
 <tr>
    <td>
-       <a href="https://health.roomit.xyz/status/gravity-bridge//" class="btn btn-info margin-top" target="_blank">Health Check</a>
+       <a href="https://health.roomit.xyz/status/gravity-bridge" class="btn btn-info margin-top" target="_blank">Health Check</a>
    </td> 
    <td>
       <button onclick="clip_grav_three()"  class="btn btn-warning margin-top">ID Validator</button>
