@@ -6,10 +6,16 @@ title: Gitopia
 description: |
 ---
 
-<!-- <span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>8ball <=> Osmosis <br> 8ball <=> Gravity <br> 8balll <=> Planq</b>">IBC Gang</span>
+<!-- <span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>Gitopia<=> Osmosis <br> Gitopia<=> Gravity <br> Gitopia <=> Planq</b>">IBC Gang</span>
 <span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>enabled</b>">Authz</span>
  -->
 
+<span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>Gitopia<=> Osmosis">IBC Gang</span>
+<span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>enabled</b>">Authz</span>
+
+
+
+Gitopiais cross-c
 
 Gitopia is the next-generation Code Collaboration Platform fuelled by a decentralized network and interactive token economy. It is designed to optimize the open-source software development process through collaboration, transparency, and incentivization.
 
