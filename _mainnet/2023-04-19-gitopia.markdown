@@ -2,40 +2,34 @@
 layout: default
 img: gitopia.png
 category: Services
-title: Gitopia
+title: Gitopia<br>
 description: |
 ---
 
-<!-- <span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>Gitopia<=> Osmosis <br> Gitopia<=> Gravity <br> Gitopia <=> Planq</b>">IBC Gang</span>
-<span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>enabled</b>">Authz</span>
- -->
 
 <span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>Gitopia<=> Osmosis">IBC Gang</span>
+&nbsp;
 <span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>enabled</b>">Authz</span>
 
-
-
-Gitopiais cross-c
 
 Gitopia is the next-generation Code Collaboration Platform fuelled by a decentralized network and interactive token economy. It is designed to optimize the open-source software development process through collaboration, transparency, and incentivization.
 
 <p align="center"><b>Our Nodes </b></p>
-<table class="table">
+<table>
 <tr>
-   <td colspan=3 style="text-align: center" class="justify-content-center">
+   <td>
        <a href="https://explorer.tendermint.roomit.xyz/gitopia/staking/gitopiavaloper1pv8fkl4t7wk9mwptkwf8pemy9rt8qpkydr6k3p" class="btn btn-success margin-top" target="_blank">Explorer Gitopia</a>
-       &nbsp;
-        <a href="/pdf/RoomIT_Akash-Grafana.pdf" class="btn btn-success margin-top">Monitoring View</a> 
    </td>
-</tr>
-<tr>
+   <td> 
+      <button onclick="clip_gitopia_three()"  class="btn btn-warning margin-top">ID Validator</button>
+      <input type="text" id="clip_gitopia" value="gitopiavaloper1pv8fkl4t7wk9mwptkwf8pemy9rt8qpkydr6k3p" hidden=true> 
+   </td>
    <td>
        <a href="https://health.roomit.xyz/status/gitopia/" class="btn btn-info margin-top" target="_blank">Health Check</a>
    </td> 
    <td>
-       <button onclick="clip_gitopia_three()"  class="btn btn-warning margin-top">ID Validator</button>
-       <input type="text" id="clip_gitopia" value="gitopiavaloper1pv8fkl4t7wk9mwptkwf8pemy9rt8qpkydr6k3p" hidden=true> 
-</td>
+       <a href="/pdf/RoomIT_Akash-Grafana.pdf" class="btn btn-success margin-top">Monitoring View</a> 
+   </td>
    <td>
       <a href="https://explorer.tendermint.roomit.xyz/gitopia/staking/gitopiavaloper1pv8fkl4t7wk9mwptkwf8pemy9rt8qpkydr6k3p" class="btn btn-danger margin-top" target="_blank">Lets Stake</a>
    </td>
