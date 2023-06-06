@@ -6,7 +6,7 @@ title: 8Ball
 description: |
 ---
 
-<span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>8ball <=> Osmosis</b>">IBC Gang</span>
+<span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>8ball <=> Osmosis <br> 8ball <=> Gravity <br> 8balll <=> Planq</b>">IBC Gang</span>
 &nbsp;
 <span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>enabled</b>">Authz</span>
 
