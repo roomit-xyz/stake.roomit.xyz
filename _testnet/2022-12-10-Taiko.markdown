@@ -11,7 +11,7 @@ modal: taiko-testnet
 # - ongoing
 # - cancel
 # - preparations / other
-status: finished
+status: ongoing
 reason: Validation Completed
 
 ######## DETAILS USED MODAL
