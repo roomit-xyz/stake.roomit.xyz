@@ -16,7 +16,7 @@ status: ongoing
 ######## DETAILS USED MODAL
 website: "https://chainflip.io/"
 event_name: "Perseverance Testnet"
-event_link:  "https://blocks-perseverance.chainflip.io/validator/cFJeTec6nZ81729HNebTp9Yb8DfUxfwmKmdvZvimGZnokLrvK"
+event_link:  "https://blocks-perseverance.chainflip.io/validators/cFJeTec6nZ81729HNebTp9Yb8DfUxfwmKmdvZvimGZnokLrvK"
 node_id: "<code>cFJeTec6nZ81729HNebTp9Yb8DfUxfwmKmdvZvimGZnokLrvK</code>"
 
 ######### TECHNOLOGY
