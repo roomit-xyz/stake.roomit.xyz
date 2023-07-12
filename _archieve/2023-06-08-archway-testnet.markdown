@@ -11,7 +11,7 @@ modal: archway-testnet
 # - ongoing
 # - cancel
 # - preparations / other
-status: ongoing
+status: cancel
 reason: 
 
 ######## DETAILS USED MODAL
