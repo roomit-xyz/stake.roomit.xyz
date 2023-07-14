@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 img: gravity.png
 category: Services
@@ -46,4 +46,4 @@ Gravity Bridge chain will act as neutral ethereum to cosmos bridge. Through IBC(
    <td ><p class="badge badge-primary">api</p></td>
    <td ><p class="badge badge-primary">snapshot</p></td>
 </tr>
-</table>
+</table> -->

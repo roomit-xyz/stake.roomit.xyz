@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 img: 8ball.png
 category: Services
@@ -45,4 +45,4 @@ description: |
    <td ><p class="badge badge-primary">api</p></td>
    <td ><p class="badge badge-primary">snapshot</p></td>
 </tr>
-</table>
+</table> -->
