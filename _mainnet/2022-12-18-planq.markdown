@@ -23,7 +23,7 @@ Planq network opens up the full blockchain potential of your phone with easy acc
    <td colspan=3 style="text-align: center" class="justify-content-center">
        <a href="https://explorer.planq.network/validators/plqvaloper1fqnr328nlndkxek2jaz8teec0euyr5yh26q26l" class="btn btn-success margin-top" target="_blank">Explorer PlanQ</a>
        &nbsp;
-       <a href="/pdf/RoomIT_Akash-Grafana.pd" class="btn btn-success margin-top">Monitoring View</a> 
+       <a href="/pdf/RoomIT-Grafana.pdf" class="btn btn-success margin-top">Monitoring View</a> 
    </td>
 </tr>
 <tr>
