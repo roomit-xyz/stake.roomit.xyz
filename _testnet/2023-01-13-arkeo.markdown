@@ -1,0 +1,36 @@
+---
+layout: default
+######## CARD FRONT VARIABLE
+img: arkeo.jpeg
+# kind blockchain : tendermint, polkadot, ethereum, near, move.
+kind_blockchain: tendermint
+title: Arkeo Network 
+modal: arkeo-testnet
+# status
+# - finished
+# - ongoing
+# - cancel
+# - preparations / other
+status: ongoing
+reason: 
+
+######## DETAILS USED MODAL
+website: "https://arkeo.network"
+event_name: "Testnet"
+event_link:  "https://testnet.kynraze.com/arkeo/staking/tarkeovaloper1gn5rsz6mg4vkytqcft29lw9cgdyuaavz9aa4s5"
+node_id: "<code>tarkeovaloper1gn5rsz6mg4vkytqcft29lw9cgdyuaavz9aa4s5</code>"
+
+######### TECHNOLOGY
+os: Ubuntu 22.04
+monitoring: Grafana, Prometheus, Telegraf
+monitoring_pdf: RoomIT_Blockx-Grafana.pdf
+security: "Audit (Lynis and Greenbonde), Hardening CIS"
+network: "Wireguard (Communication between Machine)"
+
+######## INFRASTRUCTURE
+# if kind_blockchain is tendermint,please assign  tendermint_ of value
+tendermint_rpc: "https://rpc.arkeo.roomit.xyz"
+tendermint_api: "https://api.arkeo.roomit.xyz"
+tendermint_grpc: "https://grpc.arkeo.roomit.xyz"
+tendermint_grpc_web: "https://grpc-web.arkeo.roomit.xyz"
+---
