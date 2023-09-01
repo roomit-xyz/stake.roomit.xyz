@@ -1,7 +1,7 @@
 ---
 layout: default
 ######## CARD FRONT VARIABLE
-img: arkeo.jpeg
+img: arkeo.jpg
 # kind blockchain : tendermint, polkadot, ethereum, near, move.
 kind_blockchain: tendermint
 title: Arkeo Network 
