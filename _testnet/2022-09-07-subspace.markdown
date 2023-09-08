@@ -16,8 +16,8 @@ status: ongoing
 ######## DETAILS USED MODAL
 website: "https://subspace.network/"
 event_name: "Subspace Farm"
-event_link:  ""
-node_id: "<code>x</code>"
+event_link:  "https://explorer.subspace.network/#/gemini-3f/accounts/st8AjD8iPoRbKC7nAgmvxbYvaE7tUD3LjwDobxGyAfJEAAvHj"
+node_id: "<code>st8AjD8iPoRbKC7nAgmvxbYvaE7tUD3LjwDobxGyAfJEAAvHj</code>"
 
 ######### TECHNOLOGY
 os: Ubuntu 22.04
