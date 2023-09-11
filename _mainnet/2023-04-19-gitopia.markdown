@@ -23,7 +23,7 @@ Gitopia is the next-generation Code Collaboration Platform fuelled by a decentra
    <td colspan=3 style="text-align: center" class="justify-content-center">
        <a href="https://gitopia.exploreme.pro/validator/gitopiavaloper1pv8fkl4t7wk9mwptkwf8pemy9rt8qpkydr6k3p" class="btn btn-success margin-top" target="_blank">Explorer Gitopia</a>
        &nbsp;
-         <a href="/pdf/RoomIT-Grafana.pdf" class="btn btn-success margin-top">Monitoring View</a> 
+         <a href="https://snapshots.raintank.io/dashboard/snapshot/pGAt65YrTgknim4N7KuRNlBHkofEwPl1?orgId=2" class="btn btn-success margin-top">Monitoring View</a> 
    </td>
 </tr>
 <tr>

@@ -22,7 +22,7 @@ Band Protocol is a cross-chain data oracle platform that aggregates and connects
    <td colspan=3 style="text-align: center" class="justify-content-center">
        <a href="https://www.cosmoscan.io/validator/bandvaloper13tf84rkc9yflru6kty4xj8jtkuzl6fd66f3q3z#reports" class="btn btn-success margin-top" target="_blank">Explorer Band</a>
        &nbsp;
-         <a href="/pdf/RoomIT-Grafana.pdf" class="btn btn-success margin-top">Monitoring View</a> 
+         <a href="https://snapshots.raintank.io/dashboard/snapshot/NoeemgmKtfzaK5nn2CjPvIeUysQk5oU7" class="btn btn-success margin-top">Monitoring View</a> 
    </td>
 </tr>
 <tr>
