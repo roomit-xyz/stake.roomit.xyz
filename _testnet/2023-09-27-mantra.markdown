@@ -1,0 +1,37 @@
+---
+layout: default
+######## CARD FRONT VARIABLE
+img: mantra.png
+# kind blockchain : tendermint, polkadot, ethereum, near, move.
+kind_blockchain: tendermint
+title: Mantra Finance 
+modal: mantra-testnet
+# status
+# - finished
+# - ongoing
+# - cancel
+# - preparations / other
+status: ongoing
+reason: 
+
+######## DETAILS USED MODAL
+website: "https://www.mantra.finance/"
+event_name: "Testnet"
+event_link:  "https://explorer.nodexcapital.com/mantra/staking/mantravaloper1gyka74ng57fuakpp3xxce0yk9834eeqg78wqsc"
+node_id: "<code>mantravaloper1gyka74ng57fuakpp3xxce0yk9834eeqg78wqsc</code>"
+
+######### TECHNOLOGY
+os: Ubuntu 22.04
+monitoring: Grafana, Prometheus, Telegraf
+monitoring_pdf: RoomIT_Blockx-Grafana.pdf
+security: "Audit (Lynis and Greenbonde), Hardening CIS"
+network: "Wireguard (Communication between Machine)"
+
+######## INFRASTRUCTURE
+# if kind_blockchain is tendermint,please assign  tendermint_ of value
+tendermint_monitoring: "https://tendermint.testnet.roomit.xyz"
+tendermint_rpc: "https://rpc.mantra.roomit.xyz"
+tendermint_api: "https://api.mantra.roomit.xyz"
+tendermint_grpc: "https://grpc.mantra.roomit.xyz"
+tendermint_grpc_web: "https://grpc-web.mantra.roomit.xyz"
+---
