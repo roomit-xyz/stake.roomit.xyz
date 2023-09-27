@@ -11,7 +11,7 @@ modal: chainflip-testnet
 # - ongoing
 # - cancel
 # - preparations / other
-status: ongoing
+status: finished
 
 ######## DETAILS USED MODAL
 website: "https://chainflip.io/"
