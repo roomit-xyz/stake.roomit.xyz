@@ -23,7 +23,6 @@ node_id: "<code>not defined</code>"
 ######### TECHNOLOGY
 os: Ubuntu 22.04
 monitoring: Grafana, Prometheus, Telegraf
-monitoring_pdf: RoomIT_Blockx-Grafana.pdf
 security: "Audit (Lynis and Greenbonde), Hardening CIS"
 network: "Wireguard (Communication between Machine)"
 

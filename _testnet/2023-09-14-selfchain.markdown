@@ -23,15 +23,14 @@ node_id: "<code>selfvaloper1lcfv9zwvfl63khcr752ret2ne9td82smm58f4a</code>"
 ######### TECHNOLOGY
 os: Ubuntu 22.04
 monitoring: Grafana, Prometheus, Telegraf
-monitoring_pdf: RoomIT_Blockx-Grafana.pdf
 security: "Audit (Lynis and Greenbonde), Hardening CIS"
 network: "Wireguard (Communication between Machine)"
 
 ######## INFRASTRUCTURE
 # if kind_blockchain is tendermint,please assign  tendermint_ of value
 tendermint_monitoring: "https://tendermint.testnet.roomit.xyz"
-tendermint_rpc: "https://rpc.blockx.roomit.xyz"
-tendermint_api: "https://api.blockx.roomit.xyz"
-tendermint_grpc: "https://grpc.blockx.roomit.xyz"
-tendermint_grpc_web: "https://grpc-web.blockx.roomit.xyz"
+tendermint_rpc: "https://rpc.selfchain.roomit.xyz"
+tendermint_api: "https://api.selfchain.roomit.xyz"
+tendermint_grpc: "https://grpc.selfchain.roomit.xyz"
+tendermint_grpc_web: "https://grpc-web.selfchain.roomit.xyz"
 ---
