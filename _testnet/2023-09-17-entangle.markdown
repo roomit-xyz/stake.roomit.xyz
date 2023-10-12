@@ -17,7 +17,7 @@ reason:
 ######## DETAILS USED MODAL
 website: "https://www.entangle.fi/"
 event_name: "Testnet"
-event_link:  "https://explorer.nodexcapital.com/entangle/staking/ethmvaloper1yxhagvehavfjwtaar8a25vxwp349fauzktwt9w"
+event_link:  "https://explorer.stavr.tech/Entangle-testnet/staking/ethmvaloper1yxhagvehavfjwtaar8a25vxwp349fauzktwt9w"
 node_id: "<code>ethmvaloper1yxhagvehavfjwtaar8a25vxwp349fauzktwt9w</code>"
 
 ######### TECHNOLOGY
