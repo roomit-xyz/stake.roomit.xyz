@@ -262,6 +262,27 @@ $(function () {
     })
   }
 
+    // SGE
+    function clip_sge_three() { // Get the text field
+    var copyText = document.getElementById("clip_sge");
+
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    // For mobile devices
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'SGE | ID Node Copied',
+      showConfirmButton: false,
+      timer: 1500
+    })
+  }
+
  
 
 
