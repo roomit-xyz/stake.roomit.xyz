@@ -1,6 +1,6 @@
 ---
 layout: default
-img: sge.png
+img: sge1.png
 category: Services
 title: SGE Protocol<br>
 description: |
