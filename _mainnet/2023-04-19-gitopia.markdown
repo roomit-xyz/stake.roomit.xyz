@@ -28,7 +28,7 @@ Gitopia is the next-generation Code Collaboration Platform fuelled by a decentra
 </tr>
 <tr>
    <td>
-       <a href="https://health.roomit.xyz/status/gitopia/" class="btn btn-info margin-top" target="_blank">Health Check</a>
+       <a href="https://health.roomit.xyz/status/roomit-mainnet" class="btn btn-info margin-top" target="_blank">Health Check</a>
    </td> 
    <td>
       <button onclick="clip_gitopia_three()"  class="btn btn-warning margin-top">ID Validator</button>

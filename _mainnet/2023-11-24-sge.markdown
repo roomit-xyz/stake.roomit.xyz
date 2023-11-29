@@ -1,6 +1,6 @@
 ---
 layout: default
-img: sge1.png
+img: sge.png
 category: Services
 title: SGE Protocol<br>
 description: |
@@ -25,7 +25,7 @@ A Cosmos SDK-based layer-1 blockchain utilizing its own native utility token (SG
 </tr>
 <tr>
    <td>
-       <a href="https://health.roomit.xyz/status/sge-network/" class="btn btn-info margin-top" target="_blank">Health Check</a>
+       <a href="https://health.roomit.xyz/status/roomit-mainnet/" class="btn btn-info margin-top" target="_blank">Health Check</a>
    </td> 
    <td>
       <button onclick="clip_sge_three()"  class="btn btn-warning margin-top">ID Validator</button>

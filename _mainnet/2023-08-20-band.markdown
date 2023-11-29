@@ -27,7 +27,7 @@ Band Protocol is a cross-chain data oracle platform that aggregates and connects
 </tr>
 <tr>
    <td>
-       <a href="https://health.roomit.xyz/status/band-protocol/" class="btn btn-info margin-top" target="_blank">Health Check</a>
+       <a href="https://health.roomit.xyz/status/roomit-mainnet/" class="btn btn-info margin-top" target="_blank">Health Check</a>
    </td> 
    <td>
       <button onclick="clip_band_three()"  class="btn btn-warning margin-top">ID Validator</button>

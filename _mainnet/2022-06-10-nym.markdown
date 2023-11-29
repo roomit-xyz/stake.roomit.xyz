@@ -33,7 +33,7 @@ Found Our Node Mixnode
       <input type="text" id="clip_nym" value="AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo" hidden=true> 
    </td>
    <td>
-       <a href="https://health.roomit.xyz/status/nym-mixnode/" class="btn btn-info margin-top" target="_blank">Health Check</a>
+       <a href="https://health.roomit.xyz/status/roomit-mainnet" class="btn btn-info margin-top" target="_blank">Health Check</a>
    </td>    
    <td>
       <a href="https://docs.roomit.xyz/mainnet/nym/nym-mixnode/how-to-stake-your-token" class="btn btn-danger margin-top" target="_blank">Lets Stake</a>
