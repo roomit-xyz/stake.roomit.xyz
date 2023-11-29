@@ -9,6 +9,8 @@ description: |
 <span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>dVPN <=> Osmosis</b>">IBC Gang</span>
 &nbsp;
 <span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>enabled</b>">Authz</span>
+
+
 Decentralized Virtual Private Network
 The Sentinel ecosystem is a global network of autonomous dVPN applications that enable private and censorship resistant internet access
 
