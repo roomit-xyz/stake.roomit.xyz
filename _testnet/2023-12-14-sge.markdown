@@ -1,11 +1,11 @@
 ---
 layout: default
 ######## CARD FRONT VARIABLE
-img: mantra.png
+img: sge.png
 # kind blockchain : tendermint, polkadot, ethereum, near, move.
 kind_blockchain: tendermint
-title: Mantra Finance 
-modal: mantra-testnet
+title: SGE Network 
+modal: sge-testnet
 # status
 # - finished
 # - ongoing
@@ -15,10 +15,10 @@ status: ongoing
 reason: 
 
 ######## DETAILS USED MODAL
-website: "https://www.mantra.finance/"
+website: "https://sgenetwork.io/"
 event_name: "Testnet"
-event_link:  "https://explorer.nodexcapital.com/mantra/staking/mantravaloper1gyka74ng57fuakpp3xxce0yk9834eeqg78wqsc"
-node_id: "<code>mantravaloper1gyka74ng57fuakpp3xxce0yk9834eeqg78wqsc</code>"
+event_link:  "https://explorer.nodestake.top/sge-testnet/staking/sgevaloper1rhmrwq4xket2ua4s7nqunnne8kzfz4w34082zv"
+node_id: "<code>sgevaloper1rhmrwq4xket2ua4s7nqunnne8kzfz4w34082zv</code>"
 
 ######### TECHNOLOGY
 os: Ubuntu 22.04
@@ -28,9 +28,8 @@ network: "Wireguard (Communication between Machine)"
 
 ######## INFRASTRUCTURE
 # if kind_blockchain is tendermint,please assign  tendermint_ of value
-tendermint_monitoring: "https://tendermint.testnet.roomit.xyz"
-tendermint_rpc: "https://rpc.mantra.roomit.xyz"
-tendermint_api: "https://api.mantra.roomit.xyz"
-tendermint_grpc: "https://grpc.mantra.roomit.xyz"
-tendermint_grpc_web: "https://grpc-web.mantra.roomit.xyz"
+tendermint_rpc: "https://rpc.sge.roomit.xyz"
+tendermint_api: "https://api.sge.roomit.xyz"
+tendermint_grpc: "https://grpc.sge.roomit.xyz"
+tendermint_grpc_web: "https://grpc-web.sge.roomit.xyz"
 ---
