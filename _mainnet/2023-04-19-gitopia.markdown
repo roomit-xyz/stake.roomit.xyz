@@ -43,8 +43,9 @@ Gitopia is the next-generation Code Collaboration Platform fuelled by a decentra
 <p align="center"><b>Infrastructure Public Support</b></p>
 <table>
 <tr>
-   <td ><p class="badge badge-primary">rpc</p></td>
-   <td ><p class="badge badge-primary">api</p></td>
-   <td ><p class="badge badge-primary">snapshot</p></td>
+   <td ><p class="badge badge-primary"><a href="https://rpc.gitopia.roomit.xyz">rpc</a></p></td>
+   <td ><p class="badge badge-primary"><a href="https://api.gitopia.roomit.xyz">api</a></p></td>
+   <td ><p class="badge badge-primary"><a href="grpc.gitopia.roomit.xyz:8443">grpc</a></p></td>
+   <td ><p class="badge badge-primary"><a href="https://roomit.xyz/snapshot/">snapshot</a></p></td>
 </tr>
 </table>
