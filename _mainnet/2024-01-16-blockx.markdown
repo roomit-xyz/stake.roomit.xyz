@@ -1,6 +1,6 @@
 ---
 layout: default
-img: blockx.png
+img: blockx.jpeg
 category: Services
 title: Blockx Network<br>
 description: |
@@ -9,6 +9,7 @@ description: |
 <span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>Blockx <=> Osmosis</b>">IBC Gang</span>
 &nbsp;
 <span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>enabled</b>">Authz</span>
+
 
 
 BlockX Network is a Layer 1 Ethereum alternative blockchain that offers multi-chain operability, an off-chain oracle infrastructure, and enables sovereign digital identity for the next-gen of Web3.
