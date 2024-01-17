@@ -41,9 +41,9 @@ description: |
 <p align="center"><b>Infrastructure Public Support</b></p>
 <table>
 <tr>
-   <td ><p class="badge badge-primary"><a href="https://rpc.source.roomit.xyz">rpc</a></p></td>
-   <td ><p class="badge badge-primary"><a href="https://api.source.roomit.xyz">api</a></p></td>
-   <td ><p class="badge badge-primary"><a href="grpc.source.roomit.xyz:8443">grpc</a></p></td>
-   <td ><p class="badge badge-primary"><a href="https://roomit.xyz/snapshot/">snapshot</a></p></td>
+   <td ><p class="badge badge-primary"><a href="https://rpc.source.roomit.xyz" class="btn btn-primary stretched-link">rpc</a></p></td>
+   <td ><p class="badge badge-primary"><a href="https://api.source.roomit.xyz" class="btn btn-primary stretched-link">api</a></p></td>
+   <td ><p class="badge badge-primary"><a href="grpc.source.roomit.xyz:8443" class="btn btn-primary stretched-link">grpc</a></p></td>
+   <td ><p class="badge badge-primary"><a href="https://roomit.xyz/snapshot/" class="btn btn-primary stretched-link">snapshot</a></p></td>
 </tr>
 </table>
