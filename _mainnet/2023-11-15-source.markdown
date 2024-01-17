@@ -19,7 +19,7 @@ description: |
 <table class="table">
 <tr>
    <td colspan=3 style="text-align: center" class="justify-content-center">
-       <a href="https://ping.pub/source/staking/sourcevaloper1s2rjwh8jahg7vjac9hnj99rlkgrpeknwd8expt" class="btn btn-success margin-top" target="_blank">Explorer Source</a>
+       <a href="https://explorer.tendermint.roomit.xyz/source-mainnet/staking/sourcevaloper1s2rjwh8jahg7vjac9hnj99rlkgrpeknwd8expt" class="btn btn-success margin-top" target="_blank">Explorer Source</a>
        &nbsp;
          <a href="https://snapshots.raintank.io/dashboard/snapshot/icFFAN69ArpNQeNsydWE9NlTpb1IEYb0" class="btn btn-success margin-top">Monitoring View</a> 
    </td>
@@ -33,7 +33,7 @@ description: |
       <input type="text" id="clip_source" value="sourcevaloper1s2rjwh8jahg7vjac9hnj99rlkgrpeknwd8expt" hidden=true> 
    </td>
    <td>
-      <a href="https://ping.pub/source/staking/sourcevaloper1s2rjwh8jahg7vjac9hnj99rlkgrpeknwd8expt" class="btn btn-danger margin-top" target="_blank">Lets Stake</a>
+      <a href="https://explorer.tendermint.roomit.xyz/source-mainnet/staking/sourcevaloper1s2rjwh8jahg7vjac9hnj99rlkgrpeknwd8expt" class="btn btn-danger margin-top" target="_blank">Lets Stake</a>
    </td>
 </tr>
 </table>

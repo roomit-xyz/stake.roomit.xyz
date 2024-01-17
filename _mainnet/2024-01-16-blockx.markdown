@@ -1,0 +1,55 @@
+---
+layout: default
+img: blockx.png
+category: Services
+title: Blockx Network<br>
+description: |
+---
+
+<span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>Blockx <=> Osmosis</b>">IBC Gang</span>
+&nbsp;
+<span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>enabled</b>">Authz</span>
+
+
+BlockX Network is a Layer 1 Ethereum alternative blockchain that offers multi-chain operability, an off-chain oracle infrastructure, and enables sovereign digital identity for the next-gen of Web3.
+
+<p align="center"><b>Our Nodes </b></p>
+<table class="table">
+<tr>
+   <td colspan=3 style="text-align: center" class="justify-content-center">
+       <a href="https://explorer.tendermint.roomit.xyz/blockx-mainnet/staking/blockxvaloper16am9xxy7q4yw5l9zx76zqm2p3ne8e6zns8xq3t" class="btn btn-success margin-top" target="_blank">Explorer Sentinel</a>
+       &nbsp;
+         <a href="https://snapshots.raintank.io/dashboard/snapshot/0aY5X30x5fT7GQq1qJOFfHj5ELmjyQ4g" class="btn btn-success margin-top">Monitoring View</a> 
+   </td>
+</tr>
+<tr>
+   <td>
+       <a href="https://health.roomit.xyz/status/roomit-mainnet" class="btn btn-info margin-top" target="_blank">Health Check</a>
+   </td> 
+   <td>
+      <button onclick="clip_blockx_three()"  class="btn btn-warning margin-top">ID Validator</button>
+      <input type="text" id="clip_blockx" value="blockxvaloper16am9xxy7q4yw5l9zx76zqm2p3ne8e6zns8xq3t" hidden=true> 
+   </td>
+   <td>
+      <a href="https://explorer.tendermint.roomit.xyz/blockx-mainnet/staking/blockxvaloper16am9xxy7q4yw5l9zx76zqm2p3ne8e6zns8xq3t" class="btn btn-danger margin-top" target="_blank">Lets Stake</a>
+   </td>
+</tr>
+</table>
+
+<p align="center"><b>Infrastructure Public Support</b></p>
+<table>
+<tr>
+   <td>
+      <a href="https://rpc.blockx.roomit.xyz/" class="btn btn-primary">rpc</a>
+   </td>
+   <td>
+       <a href="https://api.blockx.roomit.xyz/" class="btn btn-primary">api</a>
+   </td>
+   <td>
+       <a href="grpc.blockx.roomit.xyz:8443" class="btn btn-primary">grpc</a>
+   </td>
+   <td>
+       <a href="https://roomit.xyz/snapshot/" class="btn btn-primary">snapshot</a>
+   </td>
+</tr>
+</table>

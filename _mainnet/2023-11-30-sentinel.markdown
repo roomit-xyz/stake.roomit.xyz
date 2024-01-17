@@ -19,7 +19,7 @@ The Sentinel ecosystem is a global network of autonomous dVPN applications that 
 <table class="table">
 <tr>
    <td colspan=3 style="text-align: center" class="justify-content-center">
-       <a href="https://ping.pub/sentinel/staking/sentvaloper1pyn04fth38t9tvpa3fvfnn4xng06zsymthu6ua" class="btn btn-success margin-top" target="_blank">Explorer Sentinel</a>
+       <a href="https://explorer.tendermint.roomit.xyz/sentinel-mainnet/staking/sentvaloper1pyn04fth38t9tvpa3fvfnn4xng06zsymthu6ua" class="btn btn-success margin-top" target="_blank">Explorer Sentinel</a>
        &nbsp;
          <a href="https://snapshots.raintank.io/dashboard/snapshot/0aY5X30x5fT7GQq1qJOFfHj5ELmjyQ4g" class="btn btn-success margin-top">Monitoring View</a> 
    </td>
@@ -33,7 +33,7 @@ The Sentinel ecosystem is a global network of autonomous dVPN applications that 
       <input type="text" id="clip_dvpn" value="sentvaloper1pyn04fth38t9tvpa3fvfnn4xng06zsymthu6ua" hidden=true> 
    </td>
    <td>
-      <a href="https://ping.pub/sentinel/staking/sentvaloper1pyn04fth38t9tvpa3fvfnn4xng06zsymthu6ua" class="btn btn-danger margin-top" target="_blank">Lets Stake</a>
+      <a href="https://explorer.tendermint.roomit.xyz/sentinel-mainnet/staking/sentvaloper1pyn04fth38t9tvpa3fvfnn4xng06zsymthu6ua" class="btn btn-danger margin-top" target="_blank">Lets Stake</a>
    </td>
 </tr>
 </table>
