@@ -42,16 +42,16 @@ description: |
 <table>
 <tr>
    <td>
-      <a href="https://rpc.source.roomit.xyz/" class="btn btn-primary stretched-link">rpc</a>
+      <a href="https://rpc.source.roomit.xyz/" class="btn btn-primary">rpc</a>
    </td>
    <td>
-       <a href="https://api.source.roomit.xyz/" class="btn btn-primary stretched-link">api</a>
+       <a href="https://api.source.roomit.xyz/" class="btn btn-primary">api</a>
    </td>
    <td>
-       <a href="grpc.source.roomit.xyz:8443" class="btn btn-primary stretched-link">grpc</a>
+       <a href="grpc.source.roomit.xyz:8443" class="btn btn-primary">grpc</a>
    </td>
    <td>
-       <a href="https://roomit.xyz/snapshot/" class="btn btn-primary stretched-link">snapshot</a>
+       <a href="https://roomit.xyz/snapshot/" class="btn btn-primary">snapshot</a>
    </td>
 </tr>
 </table>

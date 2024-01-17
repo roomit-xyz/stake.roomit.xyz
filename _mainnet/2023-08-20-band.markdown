@@ -43,16 +43,16 @@ Band Protocol is a cross-chain data oracle platform that aggregates and connects
 <table>
 <tr>
    <td>
-      <a href="https://rpc.band.roomit.xyz/" class="btn btn-primary stretched-link">rpc</a>
+      <a href="https://rpc.band.roomit.xyz/" class="btn btn-primary">rpc</a>
    </td>
    <td>
-       <a href="https://api.band.roomit.xyz/" class="btn btn-primary stretched-link">api</a>
+       <a href="https://api.band.roomit.xyz/" class="btn btn-primary">api</a>
    </td>
    <td>
-       <a href="grpc.band.roomit.xyz:8443" class="btn btn-primary stretched-link">grpc</a>
+       <a href="grpc.band.roomit.xyz:8443" class="btn btn-primary">grpc</a>
    </td>
    <td>
-       <a href="https://roomit.xyz/snapshot/" class="btn btn-primary stretched-link">snapshot</a>
+       <a href="https://roomit.xyz/snapshot/" class="btn btn-primary">snapshot</a>
    </td>
 </tr>
 </table>
