@@ -21,7 +21,7 @@ Planq network opens up the full blockchain potential of your phone with easy acc
 <table class="table">
 <tr>
    <td colspan=3 style="text-align: center" class="justify-content-center">
-       <a href="https://explorer.planq.network/validators/plqvaloper1fqnr328nlndkxek2jaz8teec0euyr5yh26q26l" class="btn btn-success margin-top" target="_blank">Explorer PlanQ</a>
+       <a href="https://explorer.tendermint.roomit.xyz/planq-mainnet/staking/plqvaloper1fqnr328nlndkxek2jaz8teec0euyr5yh26q26l" class="btn btn-success margin-top" target="_blank">Explorer PlanQ</a>
        &nbsp;
        <a href="https://snapshots.raintank.io/dashboard/snapshot/J2ZrsXPRSJN4OKBHlrNoILxp7Ck0CW33" class="btn btn-success margin-top">Monitoring View</a> 
    </td>
@@ -44,8 +44,9 @@ Planq network opens up the full blockchain potential of your phone with easy acc
 <p align="center"><b>Infrastructure Public Support</b></p>
 <table>
 <tr>
-   <td ><p class="badge badge-primary">rpc</p></td>
-   <td ><p class="badge badge-primary">api</p></td>
-   <td ><p class="badge badge-primary">snapshot</p></td>
+   <td ><p class="badge badge-primary"><a href="https://rpc.planq.roomit.xyz">rpc</a></p></td>
+   <td ><p class="badge badge-primary"><a href="https://api.planq.roomit.xyz">api</a></p></td>
+   <td ><p class="badge badge-primary"><a href="grpc.planq.roomit.xyz:8443">grpc</a></p></td>
+   <td ><p class="badge badge-primary"><a href="https://roomit.xyz/snapshot/">snapshot</a></p></td>
 </tr>
 </table>
