@@ -18,7 +18,7 @@ A Cosmos SDK-based layer-1 blockchain utilizing its own native utility token (SG
 <table class="table">
 <tr>
    <td colspan=3 style="text-align: center" class="justify-content-center">
-       <a href="https://explorer.tendermint.roomit.xyz/sge-mainnet/staking/sgevaloper1rhmrwq4xket2ua4s7nqunnne8kzfz4w34082zv" class="btn btn-success margin-top" target="_blank">Explorer SGE</a>
+       <a href="https://explorer.tendermint.roomit.xyz/sge-mainnet/staking/sgevaloper1rhmrwq4xket2ua4s7nqunnne8kzfz4w34082zv" class="btn btn-success margin-top" target="_blank">Explorer</a>
        &nbsp;
          <a href="https://snapshots.raintank.io/dashboard/snapshot/0aY5X30x5fT7GQq1qJOFfHj5ELmjyQ4g" class="btn btn-success margin-top">Monitoring View</a> 
    </td>

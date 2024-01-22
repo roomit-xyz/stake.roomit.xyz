@@ -20,7 +20,7 @@ Band Protocol is a cross-chain data oracle platform that aggregates and connects
 <table class="table">
 <tr>
    <td colspan=3 style="text-align: center" class="justify-content-center">
-       <a href="https://explorer.tendermint.roomit.xyz/band-mainnet/staking/bandvaloper13tf84rkc9yflru6kty4xj8jtkuzl6fd66f3q3z" class="btn btn-success margin-top" target="_blank">Explorer Band</a>
+       <a href="https://explorer.tendermint.roomit.xyz/band-mainnet/staking/bandvaloper13tf84rkc9yflru6kty4xj8jtkuzl6fd66f3q3z" class="btn btn-success margin-top" target="_blank">Explorer</a>
        &nbsp;
          <a href="https://snapshots.raintank.io/dashboard/snapshot/NoeemgmKtfzaK5nn2CjPvIeUysQk5oU7" class="btn btn-success margin-top">Monitoring View</a> 
    </td>

@@ -18,9 +18,12 @@ BlockX Network is a Layer 1 Ethereum alternative blockchain that offers multi-ch
 <table class="table">
 <tr>
    <td colspan=3 style="text-align: center" class="justify-content-center">
-       <a href="https://explorer.tendermint.roomit.xyz/blockx-mainnet/staking/blockxvaloper16am9xxy7q4yw5l9zx76zqm2p3ne8e6zns8xq3t" class="btn btn-success margin-top" target="_blank">Explorer Sentinel</a>
+       Explorer <br>
+       <a href="https://explorer.blockx.roomit.xyz/" class="btn btn-success margin-top" target="_blank">EVM</a>
        &nbsp;
-         <a href="https://snapshots.raintank.io/dashboard/snapshot/0aY5X30x5fT7GQq1qJOFfHj5ELmjyQ4g" class="btn btn-success margin-top">Monitoring View</a> 
+       <a href="https://explorer.tendermint.roomit.xyz/blockx-mainnet/staking/blockxvaloper16am9xxy7q4yw5l9zx76zqm2p3ne8e6zns8xq3t" class="btn btn-success margin-top" target="_blank">Tendermint</a>
+       &nbsp;
+      <a href="https://snapshots.raintank.io/dashboard/snapshot/0aY5X30x5fT7GQq1qJOFfHj5ELmjyQ4g" class="btn btn-success margin-top">Monitoring View</a> 
    </td>
 </tr>
 <tr>
