@@ -51,7 +51,13 @@ description: |
        <a href="grpc.source.roomit.xyz:8443" class="btn btn-primary">grpc</a>
    </td>
    <td>
-       <a href="https://roomit.xyz/snapshot/" class="btn btn-primary">snapshot</a>
+       <a href="https://roomit.xyz/snapshot/mainnet/source" class="btn btn-primary">snapshot</a>
+   </td>
+    <td>
+       <a href="https://roomit.xyz/genesis/mainnet/source" class="btn btn-primary">genesis</a>
+   </td>
+   <td>
+       <a href="https://roomit.xyz/addressbook/mainnet/source" class="btn btn-primary">addressbook</a>
    </td>
 </tr>
 </table>

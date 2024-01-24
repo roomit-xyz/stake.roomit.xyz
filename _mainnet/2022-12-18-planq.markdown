@@ -54,7 +54,13 @@ Planq network opens up the full blockchain potential of your phone with easy acc
        <a href="grpc.planq.roomit.xyz:8443" class="btn btn-primary">grpc</a>
    </td>
    <td>
-       <a href="https://roomit.xyz/snapshot/" class="btn btn-primary">snapshot</a>
+       <a href="https://roomit.xyz/snapshot/mainnet/planq" class="btn btn-primary">snapshot</a>
+   </td>
+    <td>
+       <a href="https://roomit.xyz/genesis/mainnet/planq" class="btn btn-primary">genesis</a>
+   </td>
+   <td>
+       <a href="https://roomit.xyz/addressbook/mainnet/planq" class="btn btn-primary">addressbook</a>
    </td>
 </tr>
 </table>
