@@ -54,5 +54,11 @@ BlockX Network is a Layer 1 Ethereum alternative blockchain that offers multi-ch
    <td>
        <a href="https://roomit.xyz/snapshot/mainnet/blockx" class="btn btn-primary">snapshot</a>
    </td>
+    <td>
+       <a href="https://roomit.xyz/genesis/mainnet/blockx" class="btn btn-primary">genesis</a>
+   </td>
+   <td>
+       <a href="https://roomit.xyz/addressbook/mainnet/blockx" class="btn btn-primary">addressbook</a>
+   </td>
 </tr>
 </table>
