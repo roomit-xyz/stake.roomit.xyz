@@ -1,43 +1,61 @@
 <div class="content-section-a">
-<div class="d-flex justify-content-center" id="archieve">
-  <h2>Archieves Testnet</h2>
-  <br>
-</div>
-
-<section class="container d-flex justify-content-center">
-  <div class="row">
-    {% for item in site.archieve %}
-    <div class="col-sm-2 text-right mt-2 d-flex justify-content-center">
-        {% if item.status == "finished" %}
-           <a href="" class="nav-link active rounded-circle" data-toggle="modal" data-target="#{{item.modal}}">
-              <span  class="badge badge-primary" data-toggle="tooltip" data-html="true" title="<b>{{item.title}}</b>">
-              <img class="mx-auto d-block rounded-circle " src="img/testnet/{{item.img}}" alt="{{item.title}}"  width="70px" height="70px">
-              </span>
-            </a> 
-          {% elsif item.status == "ongoing" %}
-          <a href="" class="nav-link active rounded-circle" data-toggle="modal" data-target="#{{item.modal}}">
-              <span  class="badge badge-warning" data-toggle="tooltip" data-html="true" title="<b>{{item.title}}</b>">
-              <img class="mx-auto d-block rounded-circle " src="img/testnet/{{item.img}}" alt="{{item.title}}"  width="70px" height="70px">
-              </span>
-          </a>
-          {% elsif item.status == "cancel" %}
-          <a href="" class="nav-link active rounded-circle" data-toggle="modal" data-target="#{{item.modal}}">
-              <span  class="badge badge-danger" data-toggle="tooltip" data-html="true" title="<b>{{item.title}}</b>">
-              <img class="mx-auto d-block rounded-circle " src="img/testnet/{{item.img}}" alt="{{item.title}}"  width="70px" height="70px">
-              </span>
-          </a>
-          {% else %}
-          <a href="" class="nav-link active rounded-circle" data-toggle="modal" data-target="#{{item.modal}}">
-            <span  class="badge badge-info" data-toggle="tooltip" data-html="true" title="<b>{{item.title}}</b>">
-              <img class="mx-auto d-block rounded-circle " src="img/testnet/{{item.img}}" alt="{{item.title}}"  width="70px" height="70px">
-              </span>
-          </a>
-       {% endif %}
+  <section id="testnet">
+    <div class="d-flex justify-content-center" id="service">
+      <h2>Archieves Network</h2>
+      <br />
     </div>
-    {% endfor %}
-  </div>
+    <div class="container mt-5 mb-3">
+      <div class="row">
+        {% for item in site.archieve %}
+        {% if item.status == "finished" %}
+        <div class="col-md-2 col-4">
+          <div class="card p-3 mb-3 bg-primary" style="border-radius: 60%;">
+            <a href="" data-toggle="modal" data-target="#{{item.modal}}">
+              <span data-toggle="tooltip" data-html="true" title="<b>{{item.title}}</b>">
+                <img class="card-img-top" src="img/testnet/{{item.img}}" alt="Card image cap"
+                  style="border-radius: 50%;" />
+              </span>
+            </a>
+          </div>
+        </div>
+        {% elsif item.status == "ongoing" %}
+        <div class="col-md-2 col-4">
+          <div class="card p-3 mb-3 bg-warning" style="border-radius: 60%;">
+            <a href="" data-toggle="modal" data-target="#{{item.modal}}">
+              <span data-toggle="tooltip" data-html="true" title="<b>{{item.title}}</b>">
+                <img class="card-img-top" src="img/testnet/{{item.img}}" alt="Card image cap"
+                  style="border-radius: 50%;" />
+              </span>
+            </a>
+          </div>
+        </div>
+        {% elsif item.status == "cancel" %}
+        <div class="col-md-2 col-4">
+          <div class="card p-3 mb-3 bg-danger" style="border-radius: 60%;">
+            <a href="" data-toggle="modal" data-target="#{{item.modal}}">
+              <span data-toggle="tooltip" data-html="true" title="<b>{{item.title}}</b>">
+                <img class="card-img-top" src="img/testnet/{{item.img}}" alt="Card image cap"
+                  style="border-radius: 50%;" />
+              </span>
+            </a>
+          </div>
+        </div>
+        {% else %}
+        <div class="col-md-2 col-4">
+          <div class="card p-3 mb-3 bg-danger" style="border-radius: 60%;">
+            <a href="" data-toggle="modal" data-target="#{{item.modal}}">
+              <span data-toggle="tooltip" data-html="true" title="<b>{{item.title}}</b>">
+                <img class="card-img-top" src="img/testnet/{{item.img}}" alt="Card image cap"
+                  style="border-radius: 50%;" />
+              </span>
+            </a>
+          </div>
+        </div>
+        {%endif%}
+        {% endfor %}
+      </div>
 
-  {% for item in site.archieve %}
+      {% for item in site.archieve %}
   <!-- Modal -->
   <div class="modal fade" id="{{item.modal}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
@@ -166,7 +184,6 @@
     </div>
   </div>
   {% endfor %}
-</section>
-
-
+    </div>
+  </section>
 </div>
