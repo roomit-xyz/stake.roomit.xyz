@@ -1,0 +1,20 @@
+---
+### HEADER
+layout: default
+img: mysterium.png
+category: Services
+blockchain_kind: dvpn
+title: Mysterium
+
+### ENDPOINT PUBLIC
+rpc: ""
+api: ""
+grpc: ""
+
+### NODE ID
+node: ["0xc5c932171119897eeab674fa82f191079bc695e0","0x4f08743dcaf947a49ccbac8d0b141d6ab5851053"]
+
+### CONTENT
+description: "Mysterium is Decentralized VPN based on OpenVPN and Wireguard. We provided infrastructure for MYST in any country"
+---
+

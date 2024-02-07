@@ -1,0 +1,19 @@
+---
+### HEADER
+layout: default
+img: nym.png
+category: Services
+blockchain_kind: dvpn
+title: NYM Mixnode
+
+### ENDPOINT PUBLIC
+rpc: ""
+api: ""
+grpc: ""
+
+### NODE ID
+node: ["<a href='https://mixnet.explorers.guru/mixnode/AGaEw8kZuNAGZyQXYrtedaZcAYUE7aUzngeYGrBgHETo' class='link-dark text-decoration-none'>NYM Mixnode</a>"]
+
+### CONTENT
+description: "Nym is decentralized privacy platform. It provides strong network-level privacy against sophisticated end-to-end attackers, and anonymous access control using blinded, re-randomizable, decentralized credentials. Different with VPN, dVPN, l2P, Facebook Connect and TOR. The Nym mixnet is an anonymous overlay network that provides strong network-level anonymity, even in the face of powerful systems capable of passively monitoring the entire network."
+---

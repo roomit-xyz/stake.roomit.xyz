@@ -1,4 +1,4 @@
-<div class="content-section-a">
+<div class="content-section-a"  id="mainnet">
     <section id="services">
         <div class="d-flex justify-content-center" id="service">
             <h2>Mainnet Network</h2>
@@ -117,7 +117,42 @@
                 {% elsif post.blockchain_kind == "polkadot" %}
                 Ini untuk Polkadot Card
                 {% elsif post.blockchain_kind == "dvpn" %}
-                Ini untuk DVPN Card
+                <!-- Ini untuk DVPN Card -->
+                 <!-- Ini untuk EVM Card -->
+                 <div class="col-md-4">
+                    <div class="card p-3 mb-2">
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex flex-row align-items-center">
+                                <div class="icon"> <i class="bx"><img class="imgs"
+                                            src="img/services/{{ post.img }}"></i>
+                                </div>
+                                <div class="ms-2 c-details">
+                                    <h6 class="mb-0" style="text-align: left;">{{ post.title }}</h6>
+                                </div>
+                            </div>
+                            <div class="badge"> <span><text onclick="clip_{{post.clip_id}}_three()">id</text></span>
+                            </div>
+                            <input type="text" id="clip_{{post.clip_id}}" value="{{post.validatorid}}" hidden=true>
+                        </div>
+                        <div class="mt-3">
+                            <h6 class="heading primary">{{ post.content }}</h6>
+                        </div>
+                        <p class="font-weight-lighter">{{ post.description }}.</p>
+                        <div class="card-deck">
+                            <div class="card border-primary">
+                                <div class="card-header text-white bg-primary">ID Node</div>
+                                <div class="card-body text-left">
+                                    {% assign id_node = post.node %}
+                                    {% assign node_counter = 0 %}
+                                    {% for item in id_node %}
+                                    {% assign node_counter = node_counter | plus: 1 %}
+                                    <p class="card-text">{{ item }}</p>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 {%endif%}
                 {%endfor%}
             </div>
