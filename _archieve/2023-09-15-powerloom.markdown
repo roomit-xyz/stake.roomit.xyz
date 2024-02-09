@@ -11,7 +11,7 @@ modal: poweloom-testnet
 # - ongoing
 # - cancel
 # - preparations / other
-status: ongoing
+status: finished
 reason: 
 
 ######## DETAILS USED MODAL
