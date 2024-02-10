@@ -19,8 +19,8 @@
                                     <h6 class="mb-0" style="text-align: left;">{{ post.title }}</h6>
                                     {% assign products = post.ibc_service %}
                                     {% for item in products%}
-                                    <span class="badge badge-primary" data-toggle="tooltip" data-html="true">{{ item
-                                        }}</span>
+                                    <span class="badge badge-primary" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="{{item}}"><b>{{ item
+                                        }}</b></span>&nbsp;
                                     {% endfor %}
                                 </div>
                             </div>
@@ -38,34 +38,38 @@
                                 <div class="card-header text-white bg-primary">Services</div>
                                 <div class="card-body text-left">
                                     <p class="card-text"><a href="{{ post.rpc }}"
-                                            class="text-decoration-none text-reset" target="_blank">RPC</a></p>
+                                            class="text-decoration-none text-reset" data-bs-toggle="tooltip" data-bs-placement="top" title="{{  post.rpc  }}" target="_blank">RPC</a></p>
                                     <p class="card-text"><a href="{{ post.api }}"
-                                            class="text-decoration-none text-reset" target="_blank">API</a></p>
+                                            class="text-decoration-none text-reset"  data-bs-toggle="tooltip" data-bs-placement="top" title="{{  post.api  }}"  target="_blank">API</a></p>
                                     <p class="card-text"><a href="{{ post.grpc }}"
-                                            class="text-decoration-none text-reset" target="_blank">GRPC</a></p>
+                                            class="text-decoration-none text-reset"  data-bs-toggle="tooltip" data-bs-placement="top" title="{{  post.grpc  }}" target="_blank">GRPC</a></p>
                                     <p class="card-text"><a href="{{ post.snapshot }}"
-                                            class="text-decoration-none text-reset" target="_blank">Snapshot</a></p>
+                                            class="text-decoration-none text-reset" data-bs-toggle="tooltip" data-bs-placement="top" title="{{  post.snapshot  }}"  target="_blank">Snapshot</a></p>
                                     <p class="card-text"><a href="{{ post.genesis }}"
-                                            class="text-decoration-none text-reset" target="_blank">Genesis</a></p>
+                                            class="text-decoration-none text-reset" data-bs-toggle="tooltip" data-bs-placement="top" title="{{  post.genesis  }}"  target="_blank">Genesis</a></p>
                                     <p class="card-text"><a href="{{ post.addressbook }}"
-                                            class="text-decoration-none text-reset" target="_blank">Addressbook</a></p>
+                                            class="text-decoration-none text-reset" data-bs-toggle="tooltip" data-bs-placement="top" title="{{  post.addressbook  }}"  target="_blank">Addressbook</a></p>
+                                    {% if post.restake %}
+                                     <p class="card-text"><a href="{{ post.restake }}"
+                                                class="text-decoration-none text-reset" data-bs-toggle="tooltip" data-bs-placement="top" title="{{  post.restake  }}"  target="_blank">Restake</a></p>
+                                    {% endif %}
                                 </div>
                             </div>
                             <div class="card border-primary">
                                 <div class="card-header text-white bg-primary">Monitoring</div>
                                 <div class="card-body text-left">
                                     <p class="card-text"><a href="{{ post.global_health }}"
-                                            class="text-decoration-none text-reset" target="_blank">Global Health</a>
+                                            class="text-decoration-none text-reset" data-bs-toggle="tooltip" data-bs-placement="top" title="{{  post.global_health   }}"  target="_blank">Global Health</a>
                                     </p>
                                     <p class="card-text"><a href="{{ post.history_health }}"
-                                            class="text-decoration-none text-reset" target="_blank">History Health</a>
+                                            class="text-decoration-none text-reset" data-bs-toggle="tooltip" data-bs-placement="top" title="{{  post.history_health   }}"  target="_blank">History Health</a>
                                     </p>
                                     {% if post.evm_explorer %}
                                     <p class="card-text"><a href="{{ post.evm_explorer }}"
-                                            class="text-decoration-none text-reset" target="_blank">EVM Explorer</a></p>
+                                            class="text-decoration-none text-reset" data-bs-toggle="tooltip" data-bs-placement="top" title="{{  post.evm_explorer    }}"  target="_blank">EVM Explorer</a></p>
                                     {% endif %}
                                     <p class="card-text"><a href="{{ post.tendermint_explorer }}"
-                                            class="text-decoration-none text-reset" target="_blank">Tendermint
+                                            class="text-decoration-none text-reset" data-bs-toggle="tooltip" data-bs-placement="top" title="{{  post.tendermint_explorer    }}"  target="_blank">Tendermint
                                             Explorer</a></p>
                                 </div>
                             </div>

@@ -4,8 +4,13 @@ layout: default
 img: sge.png
 category: Services
 blockchain_kind: tendermint
-ibc_service: ["IBC Gang", "Authz"]
+ibc_service: ["IBC", "Authz"]
 title: SGE Protocol
+
+
+### RESTAKE SERVICE
+restake: "https://restake.app/sge/sgevaloper1rhmrwq4xket2ua4s7nqunnne8kzfz4w34082zv"
+
 
 ### ENDPOINT PUBLIC
 rpc: "https://rpc.sge.roomit.xyz"

@@ -4,8 +4,13 @@ layout: default
 img: blockx.jpeg
 category: Services
 blockchain_kind: tendermint
-ibc_service: ["IBC Gang", "Authz"]
+ibc_service: ["IBC", "Authz"]
 title: Blockx Network
+
+
+### RESTAKE SERVICE
+restake: 
+
 
 ### ENDPOINT PUBLIC
 rpc: "https://rpc.blockx.roomit.xyz"

@@ -4,8 +4,13 @@ layout: default
 img: band.png
 category: Services
 blockchain_kind: tendermint
-ibc_service: ["IBC Gang", "Authz"]
+ibc_service: ["IBC", "Authz"]
 title: Band Protocol
+
+
+### RESTAKE SERVICE
+restake: 
+
 
 ### ENDPOINT PUBLIC
 rpc: "https://rpc.band.roomit.xyz"

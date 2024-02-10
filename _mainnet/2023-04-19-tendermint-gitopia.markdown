@@ -4,8 +4,14 @@ layout: default
 img: gitopia.png
 category: Services
 blockchain_kind: tendermint
-ibc_service: ["IBC Gang", "Authz"]
+ibc_service: ["IBC", "Authz"]
 title: Gitopia Network
+
+
+
+### RESTAKE SERVICE
+restake: "https://restake.app/gitopia/gitopiavaloper1pv8fkl4t7wk9mwptkwf8pemy9rt8qpkydr6k3p"
+
 
 ### ENDPOINT PUBLIC
 rpc: "https://rpc.gitopia.roomit.xyz"

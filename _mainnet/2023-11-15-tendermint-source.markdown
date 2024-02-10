@@ -4,8 +4,13 @@ layout: default
 img: source.png
 category: Services
 blockchain_kind: tendermint
-ibc_service: ["IBC Gang", "Authz"]
+ibc_service: ["IBC", "Authz"]
 title: Source Protocol
+
+
+### RESTAKE SERVICE
+restake: "https://restake.app/source/sourcevaloper1s2rjwh8jahg7vjac9hnj99rlkgrpeknwd8expt"
+
 
 ### ENDPOINT PUBLIC
 rpc: "https://rpc.source.roomit.xyz"

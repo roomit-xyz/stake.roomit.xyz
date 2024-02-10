@@ -4,8 +4,11 @@ layout: default
 img: planq.png
 category: Services
 blockchain_kind: tendermint
-ibc_service: ["IBC Gang", "Authz"]
+ibc_service: ["IBC", "Authz"]
 title: planq Network
+
+### RESTAKE SERVICE
+restake: "https://restake.app/planq/plqvaloper1fqnr328nlndkxek2jaz8teec0euyr5yh26q26l"
 
 ### ENDPOINT PUBLIC
 rpc: "https://rpc.planq.roomit.xyz"
