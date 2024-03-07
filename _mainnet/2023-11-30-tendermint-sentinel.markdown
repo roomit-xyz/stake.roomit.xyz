@@ -28,7 +28,7 @@ history_health: "https://snapshots.raintank.io/dashboard/snapshot/0aY5X30x5fT7GQ
 
 #### EXPLORER
 evm_explorer: 
-tendermint_explorer: "https://explorer.tendermint.roomit.xyz/dvpn-mainnet/staking/sentvaloper1pyn04fth38t9tvpa3fvfnn4xng06zsymthu6ua"
+tendermint_explorer: "https://explorer.tendermint.roomit.xyz/sentinel-mainnet/staking/sentvaloper1pyn04fth38t9tvpa3fvfnn4xng06zsymthu6ua"
 
 ### OTHER CONTENT
 validatorid: sentvaloper1pyn04fth38t9tvpa3fvfnn4xng06zsymthu6ua
